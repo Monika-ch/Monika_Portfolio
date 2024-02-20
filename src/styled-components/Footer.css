@@ -1,0 +1,99 @@
+.footer-section {
+  color: #fffcf1;
+  box-sizing: border-box;
+  width: 80vw;
+  margin: auto;
+  margin-top: 5rem;
+  border-top: 5px inset #131310a9;
+  font-family: "Special Elite", cursive;
+  background: rgba(255, 72, 0, 0.8);
+  background: -moz-linear-gradient(
+    -183deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgba(255, 72, 0, 0.7) 7%,
+    rgba(255, 109, 25, 0.9) 69%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: -webkit-linear-gradient(
+    273deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgba(255, 72, 0, 0.7) 7%,
+    rgba(255, 109, 25, 0.9) 69%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: linear-gradient(
+    -183deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgba(255, 72, 0, 0.7) 7%,
+    rgba(255, 109, 25, 0.9) 69%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.footer-container {
+  box-sizing: border-box;
+  width: 70%;
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+}
+
+.footer-section .footer-info {
+  font-size: 1rem;
+}
+
+.contact {
+  justify-content: center;
+}
+
+.fas,
+.fab {
+  color: #1f0404;
+}
+
+.downloadResume {
+  background-color: #1f0404;
+  color: #fffcf1;
+  padding: 0.7rem;
+  padding-right: 4.5rem;
+}
+
+.fa-download {
+  margin-left: -4rem;
+  margin-top: -1rem;
+  color: #fad7af;
+}
+
+.profileLink {
+  text-decoration: none;
+  color: #1f0404;
+}
+
+.copyRightInfo {
+  color: #1f0404;
+}
+
+@media (max-width: 1200px) {
+  .footer-section {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+  }
+  .footer-container {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    margin: 0;
+  }
+}

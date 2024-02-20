@@ -1,0 +1,38 @@
+
+body {
+  /* background: hsla(267, 86%, 25%, 1);
+
+background: radial-gradient(circle, hsla(267, 86%, 25%, 1) 16%, hsla(300, 5%, 13%, 1) 88%);
+
+background: -moz-radial-gradient(circle, hsla(267, 86%, 25%, 1) 16%, hsla(300, 5%, 13%, 1) 88%);
+
+background: -webkit-radial-gradient(circle, hsla(267, 86%, 25%, 1) 16%, hsla(300, 5%, 13%, 1) 88%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 ); */
+
+  /* background: hsla(267, 86%, 25%, 1);
+
+background: radial-gradient(circle, rgb(10, 1, 22) 16%, hsl(180, 33%, 3%) 88%);
+
+background: -moz-radial-gradient(circle, rgb(25, 2, 54) 16%, hsla(300, 5%, 13%, 1) 88%);
+
+background: -webkit-radial-gradient(circle, rgb(8, 101, 107) 6%, hsl(180, 33%, 3%) 88%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 ); */
+
+  /* background: hsl(180, 33%, 3%); */
+
+  background: hsl(235, 65%, 3%);
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

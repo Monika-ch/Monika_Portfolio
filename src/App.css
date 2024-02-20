@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Amatic+SC&family=Cormorant+Garamond:wght@300;400;500;600&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.App {
+  text-align: center;
+  background-color: rgba(14, 5, 5, 0.967);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #990273;
+  color: bisque;
+}
+.App-container {
+  background: -webkit-radial-gradient(
+    ellipse at center,
+    rgba(100, 9, 9, 0.383) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -moz-radial-gradient(
+    ellipse at center,
+    rgba(100, 9, 9, 0.383) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(100, 9, 9, 0.383) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,133 @@
+.logo-container {
+  font-family: "Amatic SC", cursive;
+  color: #fb8500;
+  position: fixed;
+  right: 2rem;
+  bottom: 4rem;
+}
+
+.logo {
+  font-size:5rem;
+  text-shadow: -6px -1px 15px #f5a031;
+  border: 1px solid #f5a0311f;
+  padding: 0 1.3rem 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.navBar {
+  /* width: 80%; */
+  margin: 1rem auto 3rem;
+  height: 0;
+  background-color: rgb(255, 72, 0);
+  background: linear-gradient(
+    300deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgb(255, 72, 0) 7%,
+    rgba(255, 109, 25, 0.9) 89%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: -moz-linear-gradient(
+    300deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgb(255, 72, 0) 7%,
+    rgba(255, 109, 25, 0.9) 89%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: -webkit-linear-gradient(
+    300deg,
+    rgba(19, 2, 19, 0.8) 22%,
+    rgb(255, 72, 0) 23%,
+    rgba(255, 109, 25, 0.9) 77%,
+    rgba(27, 16, 27, 0.2) 78%
+  );
+  box-shadow: 0 6px 8px 0 rgba(172, 39, 5, 0.61),
+    0 6px 20px 0 rgba(163, 37, 37, 0.45);
+}
+
+.navBar .list-unstyled {
+  list-style-type: none;
+}
+
+.navBar .nav_link {
+  font-family: "Exo 2", sans-serif;
+  color: #1f0404;
+  font-size: 1em;
+  cursor: pointer;
+  padding-left: 1.7rem !important;
+  padding-right: 1.7rem !important;
+  margin-top: 1em;
+  border-bottom: 1px solid #1f0404;
+  margin-right: 1em;
+  margin-left: 1em;
+  box-shadow: 0 4px 8px 0 rgba(71, 77, 78, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(255, 72, 0);
+  background: linear-gradient(
+    300deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgb(255, 72, 0) 7%,
+    rgba(255, 109, 25, 0.9) 89%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: -moz-linear-gradient(
+    300deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgb(255, 72, 0) 7%,
+    rgba(255, 109, 25, 0.9) 89%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  background: -webkit-linear-gradient(
+    300deg,
+    rgba(80, 57, 80, 0.8) 1%,
+    rgb(255, 72, 0) 7%,
+    rgba(255, 109, 25, 0.9) 89%,
+    rgba(27, 16, 27, 0.1) 98%
+  );
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: border-radius ease 500ms, transform ease 500ms;
+  -webkit-transition: border-radius ease 500ms, transform ease 500ms;
+  -moz-transition: border-radius ease 500ms, transform ease 500ms;
+  -ms-transition: border-radius ease 500ms, transform ease 500ms;
+  -o-transition: border-radius ease 500ms, transform ease 500ms;
+}
+
+.navBar .nav_link:hover,
+.navBar .nav_link:active {
+  border: 1px solid #1f0404;
+  margin-top: 0.8em;
+  /*margin-bottom: -1px;
+  */
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+}
+
+.navBar .gallery_btn:hover {
+  margin-top: 0.7em;
+  margin-bottom: 0.3em;
+  background-color: #c1cf0034;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
