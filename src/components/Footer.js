@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <React.Fragment>
       <section className='footer-section'>
-        <div className='container footer-container py-5'>
+        <div className='container footer-container'>
           <div className='row footer-info'>
             <div className='col contact d-flex'>
               {/* <a
@@ -24,37 +24,37 @@ export default function Footer() {
               >
                 Click here to download the PDF
               </a> */}
-              <div className='social-media-box mx-3'>
+              <div className='social-media-box mx-2'>
                 <a
                   href='https://mail.google.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='Gmail'
                 >
-                  <i className='fas fa-envelope fa-3x'></i>
+                  <i className='fas fa-envelope fa-2x'></i>
                 </a>
               </div>
-              <div className='social-media-box mx-3'>
+              <div className='social-media-box mx-2'>
                 <a
                   href='https://www.linkedin.com/in/monika12b/'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='LinkedIn'
                 >
-                  <i className='fab fa-linkedin fa-3x'></i>
+                  <i className='fab fa-linkedin fa-2x'></i>
                 </a>
               </div>
-              <div className='social-media-box mx-3'>
+              <div className='social-media-box mx-2'>
                 <a
                   href='https://www.github.com/Monika-ch/'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='Github'
                 >
-                  <i className='fab fa-github fa-3x'></i>
+                  <i className='fab fa-github fa-2x'></i>
                 </a>
               </div>
-              <div className='downloadResume-box mx-3'>
+              <div className='downloadResume-box mx-2'>
                 <a
                   href={url}
                   download='Monika_Resume.pdf'
@@ -65,7 +65,7 @@ export default function Footer() {
                     Resume
                   </button>
 
-                  <i className='fas fa-download fa-3x'></i>
+                  <i className='fas fa-download'></i>
                 </a>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function Footer() {
             {/* <div className='col py-5 p-md-5'>
               »»———-　 ℘ortfolio of ൩onika Ⓒ 2o24 　———-««
             </div> */}
-            <div className='col py-5 p-md-5'>
+            <div className='col py-4 p-md-4'>
               ̶̶̶̶  «̶ ̶̶̶ ̶ «̶ ̶̶̶ 　　 ℘ortfolio of{" "}
               <a
                 href='https://www.linkedin.com/in/monika12b/'

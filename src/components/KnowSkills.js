@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import "../styled-components/HomePage.css";
 import "../styled-components/SkillsInfo.css";
 
-class SkillsInfo extends Component {
+class KnowSkills extends Component {
   render() {
     return (
       <React.Fragment>
@@ -15,7 +15,7 @@ class SkillsInfo extends Component {
           </div>
           <div className='row skills-box'>
             {/* UX Development */}
-            <div className='UX-development-box col-lg-3 container'>
+            <div className='UX-development-box col-lg-6 container'>
               <div className='row'>
                 <div className='col-2'>
                   <i className='fas fa-swatchbook'></i>
@@ -65,7 +65,7 @@ class SkillsInfo extends Component {
             </div>
 
             {/* Testing Frameworks */}
-            <div className='testing-frameworks-box col-lg-3 container'>
+            <div className='testing-frameworks-box col-lg-6 container'>
               <div className='row'>
                 <div className='col-2'>
                   <i className='fas fa-wrench fa-flip-horizontal'></i>
@@ -106,9 +106,10 @@ class SkillsInfo extends Component {
                 </div>
               </div>
             </div>
-
+          </div>
+          <div className='row skills-box'>
             {/* Accessibility */}
-            <div className='accessibility-box col-lg-3 container'>
+            <div className='accessibility-box col-lg-6 container'>
               <div className='row'>
                 <div className='col-2'>
                   <i className='fas fa-universal-access'></i>
@@ -171,9 +172,10 @@ class SkillsInfo extends Component {
                 </div>
               </div>
             </div>
-
+          </div>
+          <div className='row skills-box'>
             {/* Cloud Providers */}
-            <div className='cloud-providers-box col-lg-3 container'>
+            <div className='cloud-providers-box col-lg-6 container'>
               <div className='row'>
                 <div className='col-2'>
                   <i className='fas fa-cloud'></i>
@@ -190,17 +192,13 @@ class SkillsInfo extends Component {
                   <ul>
                     <li>
                       <strong>CI/CD Automation: </strong>
-                      Proficient in setting up and managing CI/CD pipelines in AWS, ensuring fast and reliable deployment and updates.</li>
+                      Setting up and managing CI/CD pipelines in AWS, ensuring fast and reliable deployment and updates.</li>
                     <li>
                       <strong>Serverless Architecture: </strong>
-                      Skilled in utilizing AWS Amplify for serverless backend deployment, providing scalability and cost-efficiency.</li>
+                      Utilizing AWS Amplify for serverless backend deployment, providing scalability and cost-efficiency.</li>
                     <li>
                       <strong>Performance Optimization: </strong>
                       Applied best practices for performance optimization in AWS environments, resulting in enhanced application speed and reliability.</li>
-                    <li>
-                      <strong>Security Best Practices: </strong>
-                      Implemented AWS security best practices to protect web applications, ensuring compliance with industry standards.
-                    </li>
                   </ul>
                   <p><strong>Azure</strong></p>
                   <ul>
@@ -230,20 +228,6 @@ class SkillsInfo extends Component {
                 </div>
               </div>
             </div>
-            {/* <div className='experimentation-flighting-box col-md-3'>
-                  <h3 className='heading-experimentation-flighting mb-4'>
-                    <span>Experimentation & Flighting</span>
-                  </h3>
-                  <p>
-                    Lorem ipsum odor amet, consectetuer adipiscing elit.
-                    Imperdiet erat nullam tortor quis elit lacus blandit vitae.
-                    Nostra dapibus bibendum; curae magnis commodo metus
-                    vestibulum tristique. Tristique volutpat consectetur congue
-                    lorem pharetra habitant. Sodales gravida egestas venenatis
-                    dignissim molestie cursus porta. Massa lacus pulvinar
-                    aliquam mi tristique.
-                  </p>
-                </div> */}
           </div>
         </section >
       </React.Fragment >
@@ -251,4 +235,4 @@ class SkillsInfo extends Component {
   }
 }
 
-export default SkillsInfo;
+export default KnowSkills;

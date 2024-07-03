@@ -1,31 +1,30 @@
 .footer-section {
-  color: #fffcf1;
   box-sizing: border-box;
-  width: 80vw;
+  /* width: 80vw; */
   margin: auto;
   margin-top: 5rem;
   border-top: 5px inset #131310a9;
   font-family: "Special Elite", cursive;
-  background: rgba(255, 72, 0, 0.8);
+  background: #54bb99;
   background: -moz-linear-gradient(
     -183deg,
     rgba(80, 57, 80, 0.8) 1%,
-    rgba(255, 72, 0, 0.7) 7%,
-    rgba(255, 109, 25, 0.9) 69%,
+    #54bb99 7%,
+    #00fbc5 69%,
     rgba(27, 16, 27, 0.1) 98%
   );
   background: -webkit-linear-gradient(
     273deg,
     rgba(80, 57, 80, 0.8) 1%,
-    rgba(255, 72, 0, 0.7) 7%,
-    rgba(255, 109, 25, 0.9) 69%,
+    #54bb99 7%,
+    #00fbc5 69%,
     rgba(27, 16, 27, 0.1) 98%
   );
   background: linear-gradient(
     -183deg,
     rgba(80, 57, 80, 0.8) 1%,
-    rgba(255, 72, 0, 0.7) 7%,
-    rgba(255, 109, 25, 0.9) 69%,
+    #54bb99 7%,
+    #00fbc5 69%,
     rgba(27, 16, 27, 0.1) 98%
   );
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,9 +37,10 @@
 
 .footer-container {
   box-sizing: border-box;
-  width: 70%;
+  padding: 2em;
+  /* width: 70%; */
   font-size: 1.5em;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 .footer-section .footer-info {
@@ -57,16 +57,26 @@
 }
 
 .downloadResume {
-  background-color: #1f0404;
-  color: #fffcf1;
-  padding: 0.7rem;
-  padding-right: 4.5rem;
+  background-color: #82d1bc;
+  background-color: #a0e0cf;
+  border: 1px solid;
+  color: #1f0404;
+  padding: 3px 48px 3px 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  /*padding-right: 4.5rem;
+  */border-radius: 15px;
+} 
+.downloadResume-box i {
+  color: rgb(240, 255, 255);
+  color: #1f0404;
 }
 
-.fa-download {
-  margin-left: -4rem;
+.footer-section .fa-download {
+  margin-left: -2.6rem;
   margin-top: -1rem;
-  color: #fad7af;
+  /* color: #fad7af; */
+  font-size: 26px;
 }
 
 .profileLink {
@@ -80,7 +90,7 @@
 
 @media (max-width: 1200px) {
   .footer-section {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
