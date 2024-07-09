@@ -1,6 +1,5 @@
 .Home-page {
- color: azure;
- padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .Home-profile-container {
@@ -13,7 +12,7 @@
   -o-border-radius: 20px;
 }
 
-.Home-profile-container .profile-thumbnail img{
+.Home-profile-container .profile-thumbnail img {
   width: 350px;
   height: 435px;
   border: 3px solid rgba(240, 255, 255, 0.603);
@@ -29,7 +28,7 @@
   -o-border-radius: 25% 25%;
 }
 
-.Home-profile-container .profile-thumbnail img:hover{
+.Home-profile-container .profile-thumbnail img:hover {
   border-radius: 50% 25% 50%;
   -webkit-border-radius: 50% 25% 50%;
   -moz-border-radius: 50% 25% 50%;
@@ -37,7 +36,11 @@
   -o-border-radius: 50% 25% 50%;
 }
 
-.Home-profile-container .fab, .Home-profile-container .fas {
+.Home-page,
+.Home-profile-container .fab,
+.Home-profile-container .fas,
+#HomeProfile .downloadResume-box a i,
+#HomeProfile .downloadResume-box a:hover {
   color: azure;
 }
 
@@ -56,7 +59,8 @@
 
 #HomeProfile .downloadResume-box a .downloadResume {
   /*border: 1px solid azure;
-  */width: 320px;
+  */
+  width: 320px;
   color: #fffcf1;
   font-size: 19px;
   padding-right: 2.7rem;
@@ -64,19 +68,15 @@
   padding-bottom: .5rem;
   background-color: #6bebc0c7;
   /*background-color: #bb1869e1;
-  */border-radius: 13px;
+  */
+  border-radius: 13px;
 }
 
 #HomeProfile .downloadResume-box a i {
   margin-left: -7.4rem;
-  color: azure;
 }
 
-#HomeProfile .downloadResume-box a:hover {
-  color: azure;
-}
-
-#HomeProfile .downloadResume-box a:hover .downloadResume{
+#HomeProfile .downloadResume-box a:hover .downloadResume {
   border: 1px solid #54bb99;
   background-color: #1f0404;
   /* width: 300px;

@@ -6,28 +6,22 @@
   border-top: 5px inset #131310a9;
   font-family: "Special Elite", cursive;
   background: #54bb99;
-  background: -moz-linear-gradient(
-    -183deg,
-    rgba(80, 57, 80, 0.8) 1%,
-    #54bb99 7%,
-    #00fbc5 69%,
-    rgba(27, 16, 27, 0.1) 98%
-  );
-  background: -webkit-linear-gradient(
-    273deg,
-    rgba(80, 57, 80, 0.8) 1%,
-    #54bb99 7%,
-    #00fbc5 69%,
-    rgba(27, 16, 27, 0.1) 98%
-  );
-  background: linear-gradient(
-    -183deg,
-    rgba(80, 57, 80, 0.8) 1%,
-    #54bb99 7%,
-    #00fbc5 69%,
-    rgba(27, 16, 27, 0.1) 98%
-  );
-  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: -moz-linear-gradient(-183deg,
+      #503950cc 1%,
+      #54bb99 7%,
+      #00fbc5 69%,
+      #1b101b1a 98%);
+  background: -webkit-linear-gradient(273deg,
+      #503950cc 1%,
+      #54bb99 7%,
+      #00fbc5 69%,
+      #1b101b1a 98%);
+  background: linear-gradient(-183deg,
+      #503950cc 1%,
+      #54bb99 7%,
+      #00fbc5 69%,
+      #1b101b1a 98%);
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -35,7 +29,15 @@
   -o-border-radius: 10px;
 }
 
-.footer-container {
+.footer-section,
+.fas,
+.fab,
+.downloadResume,
+.profileLink {
+  color: #1f0404;
+}
+
+.footer-section .footer-container {
   box-sizing: border-box;
   padding: 2em;
   /* width: 70%; */
@@ -47,29 +49,20 @@
   font-size: 1rem;
 }
 
-.contact {
+.footer-section .contact {
   justify-content: center;
 }
 
-.fas,
-.fab {
-  color: #1f0404;
-}
-
-.downloadResume {
+.footer-section .downloadResume {
   background-color: #82d1bc;
   background-color: #a0e0cf;
-  border: 1px solid;
-  color: #1f0404;
+  border: 1px solid #1f0404;
   padding: 3px 48px 3px 20px;
   letter-spacing: 1px;
   font-size: 18px;
   /*padding-right: 4.5rem;
-  */border-radius: 15px;
-} 
-.downloadResume-box i {
-  color: rgb(240, 255, 255);
-  color: #1f0404;
+  */
+  border-radius: 15px;
 }
 
 .footer-section .fa-download {
@@ -79,13 +72,18 @@
   font-size: 26px;
 }
 
-.profileLink {
-  text-decoration: none;
-  color: #1f0404;
+.footer-section .downloadResume-box a:hover .downloadResume,
+.footer-section .downloadResume-box a:hover i {
+  color: rgb(36, 78, 63);
 }
 
-.copyRightInfo {
-  color: #1f0404;
+.footer-section .downloadResume-box a:hover .downloadResume {
+  background-color: #8de2cd;
+}
+
+.footer-section .profileLink,
+.footer-section {
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
@@ -97,6 +95,7 @@
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
   }
+
   .footer-container {
     font-size: 1em;
   }

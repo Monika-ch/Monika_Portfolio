@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
   Navbar,
-  // NavbarBrand,
   Nav,
   NavbarToggler,
   NavItem,
@@ -52,11 +51,6 @@ class NavigationBar extends Component {
                   Project Gallery
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink className='nav_link' to='/roadmap'>
-                  Achievements
-                </NavLink>
-              </NavItem> */}
               <NavItem>
                 <NavLink className='nav_link' to='/game-mechanics'>
                   Resume

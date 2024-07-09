@@ -13,6 +13,8 @@ function App() {
     <div className='App'>
       <div className='App-container'>
         {/* <NavigationBar /> */}
+        <div className="empty-div"></div>
+
         <Home />
         <main>
           <Routes>

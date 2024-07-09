@@ -6,6 +6,7 @@ import KnowSkills from './KnowSkills';  // Example page for "Know Skills"
 import ExploreProjects from './ExploreProjects'; // Example page for "Explore"
 import LookUpProfile from './LookUpProfile'; // Example page for "Look Up"
 import '../styled-components/Home.css';
+import '../styled-components/DownloadResumeButtonProfile.css';
 
 const HomeProfile = () => {
   const url =
