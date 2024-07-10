@@ -1,29 +1,19 @@
 import { Router, Routes, Route } from 'react-router-dom';
-// import NavigationBar from './components/NavigationBar';
 import Home from "./components/Home";
-import HomePage from './components/HomePage';
-import ExploreProjects from './components/ExploreProjects';
-import KnowSkills from './components/KnowSkills';
-import LookUpProfile from './components/LookUpProfile';
-import Footer from './components/Footer';
+import WhatIDo from './components/WhatIDo';
+import Contact from "./components/Contact";
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
       <div className='App-container'>
-        {/* <NavigationBar /> */}
         <div className="empty-div"></div>
-
-        <Home />
         <main>
           <Routes>
-            {/* <Route path='/' element={<HomePage />} /> */}
-            <Route path='/projects' element={<ExploreProjects />} />
-            <Route path='/skills' element={<KnowSkills />} />
-            <Route path='/profile' element={<LookUpProfile />} />
-
-            {/* Add other routes here */}
+            <Route path='/' element={<Home />} />
+            <Route path='/whatIdo' element={<WhatIDo />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
         </main>
         {/* <Footer /> */}
@@ -33,6 +23,10 @@ function App() {
 }
 
 export default App;
+
+
+
+// AN EXAMPLE APP ROUTING STRUCTURE
 
 // import { Routes, Route, Link } from 'react-router-dom';
 // import Home from "./components/Home";

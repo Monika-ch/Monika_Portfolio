@@ -7,9 +7,8 @@ import {
   NavLink,
   Collapse,
 } from "reactstrap";
-import { Routes, Route, Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import "../styled-components/NavigationBar.css";
-import HomePage from "./HomePage";
 
 class NavigationBar extends Component {
   // constructor(props) {
@@ -42,33 +41,28 @@ class NavigationBar extends Component {
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className='m-auto list-unstyled'>
               <NavItem>
-                <NavLink className='nav_link active' to='/#story'>
+                <NavLink className='nav_link active' tag={Link} to='/'>
                   My Story
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className='nav_link gallery_btn' to='/projects'>
+                <NavLink className='nav_link' tag={Link} to='/whatIdo'>
+                  What I Do
+                </NavLink>
+              </NavItem>
+              {/* <NavItem>
+                <NavLink className='nav_link' tag={Link} to='/projects'>
                   Project Gallery
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
-                <NavLink className='nav_link' to='/game-mechanics'>
-                  Resume
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className='nav_link' to='/contact'>
+                <NavLink className='nav_link' tag={Link} to='/contact'>
                   Contact
                 </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
-        <Routes>
-          {/* <Route path="/" element={<HomePage />} /> */}
-          {/* <Route path="/#story" element={<HomePage />} /> */}
-          {/* <Route path="/footer" element={<Footer />} /> */}
-        </Routes>
       </>
     );
   }
