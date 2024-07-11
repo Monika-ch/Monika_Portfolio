@@ -1,7 +1,7 @@
-import { Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from "./components/Home";
-import WhatIDo from './components/WhatIDo';
-import Contact from "./components/Contact";
+// import WhatIDo from './components/WhatIDo';
+// import Contact from "./components/Contact";
 import './App.css';
 
 function App() {
@@ -9,14 +9,7 @@ function App() {
     <div className='App'>
       <div className='App-container'>
         <div className="empty-div"></div>
-        <main>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/whatIdo' element={<WhatIDo />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        </main>
-        {/* <Footer /> */}
+          <Home />
       </div>
     </div>
   );
