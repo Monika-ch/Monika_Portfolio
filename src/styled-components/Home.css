@@ -1,8 +1,11 @@
 .Home-page {
   padding: 5rem 0;
+  font-family: "Exo 2", sans-serif;
 }
 
 .Home-profile-container {
+  letter-spacing: 1.6px;
+  letter-spacing: 2px;
   padding: 3rem 0;
   background-color: #00000063;
   border-radius: 20px;
@@ -29,11 +32,37 @@
 }
 
 .Home-profile-container .profile-thumbnail img:hover {
+  scale: 1.04 1.04 2;
   border-radius: 50% 25% 50%;
   -webkit-border-radius: 50% 25% 50%;
   -moz-border-radius: 50% 25% 50%;
   -ms-border-radius: 50% 25% 50%;
   -o-border-radius: 50% 25% 50%;
+}
+
+#HomeProfile .social-media-box a {
+  padding: 15px 5px 5px 8px;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+}
+
+#HomeProfile .social-media-box {
+  border-bottom: 1px solid rgba(240, 255, 255, 0.473);
+  padding-bottom: 4rem;
+  width: 50%;
+  margin: auto;
+}
+
+#HomeProfile .social-media-box .fa-envelope {
+  color: #be8130;
+}
+
+#HomeProfile .social-media-box .fa-linkedin {
+  color: #3eafbed3;
+}
+
+#HomeProfile .social-media-box .fa-github {
+  color: #54bb99dc;
 }
 
 .Home-page,
@@ -86,4 +115,70 @@
 
 #HomeProfile .downloadResume-box a:hover i {
   color: #54bb99;
+}
+
+.personal-info-container {
+  width: 400px;
+  border: 1px solid rgba(240, 255, 255, 0.1);
+  background-color: #000000;
+  padding: 0 1rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* .personal-info-container .row {
+  border-bottom: 1px solid rgba(240, 255, 255, 0.1);
+} */
+
+.personal-info-container .row:nth-child(1),
+.personal-info-container .row:nth-child(2) {
+  padding: 13px 0 3px 0;
+  border-bottom: 1px solid rgba(240, 255, 255, 0.1);
+}
+
+.personal-info-container .row:nth-child(3) {
+  padding: 13px 0 3px 0;
+}
+
+.personal-info-container i {
+  /* color: rgba(240, 255, 255, 0.74); */
+  font-size: 27px;
+  background-color: #1f1f1f;
+  margin-top: 9px;
+  padding: 5px 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.personal-info-container p {
+  text-align: left;
+}
+
+.personal-info-title {
+  margin: 3px 0 0 0;
+  color: #aaaaaa;
+  font-size: 15px;
+}
+
+.personal-info {
+  font-size: 19px;
+}
+
+.fa-globe {
+  /* color: rgba(0, 255, 191, 0.5); */
+  color: rgb(0, 255, 191);
+}
+
+.fa-envelope {
+  color: #ff9900d8;
+}
+
+.fa-phone {
+  color: rgba(0, 255, 255, 0.8);
 }

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styled-components/Home.css';
 // import '../styled-components/DownloadResumeButtonProfile.css';
 
 const HomeProfile = () => {
+  const [image, setImage] = useState(process.env.PUBLIC_URL + '/me.jpg');
+  const handleMouseEnter = () => {
+    setImage(process.env.PUBLIC_URL + '/me1.jpg');
+  };
+  const handleMouseLeave = () => {
+    setImage(process.env.PUBLIC_URL + '/me.jpg');
+  };
   const url =
     "https://monikaresume.blob.core.windows.net/monika-resume/ResumeNew.pdf";
 
@@ -10,8 +17,14 @@ const HomeProfile = () => {
     <div id='HomeProfile' className='Home-profile-container col-lg-5'>
       <div className='profile-container'>
         <div className='profile-thumbnail'>
-          <img src={process.env.PUBLIC_URL + '/me.jpg'} alt="Profile Photo" className="profile-photo" />
-          <h1 className='mt-2'>Monika</h1>
+          <img
+            src={image}
+            alt="Monika's Profile Photo"
+            className="profile-photo"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          />
+          <h1 className='mt-4'>Monika</h1>
           <p>Web Developer | Prompt Engineer</p>
           <div className='social-profile'>
             <div className='social-media-box'>
@@ -62,33 +75,39 @@ const HomeProfile = () => {
       </div>
       <div className='personal-info-container container'>
         <div className='row'>
-          <div className='col-3'>icon</div>
+          <div className='col-3'>
+            <i className="far fa-globe"></i>
+          </div>
           <div className='col'>
             <p className='personal-info-title'>Location</p>
             <p className='personal-info'>Bellevue, WA, USA</p>
           </div>
         </div>
         <div className='row'>
-          <div className='col-3'>icon</div>
+          <div className='col-3'>
+            <i className="far fa-envelope"></i>
+          </div>
           <div className='col'>
             <p className='personal-info-title'>Email</p>
             <p className='personal-info'>monika12b@gmail.com</p>
           </div>
         </div>
         <div className='row'>
-          <div className='col-3'>icon</div>
+          <div className='col-3'>
+            <i className="far fa-phone fa-rotate-90"></i>
+          </div>
           <div className='col'>
             <p className='personal-info-title'>Phone</p>
             <p className='personal-info'>+1-(425)-265-7756</p>
           </div>
         </div>
-        <div className='row'>
+        {/* <div className='row'>
           <div className='col-3'>icon</div>
           <div className='col'>
             <p className='personal-info-title'></p>
             <p className='personal-info'></p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

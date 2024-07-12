@@ -1,0 +1,80 @@
+.skills-container {
+  /* margin-top: 1rem;
+  margin-bottom: 10rem; */
+  margin: 2rem 1rem;
+  /* padding-top: 3rem; */
+  padding-bottom: 8rem;
+  /* width: 70%; */
+  font-size: 14px;
+  border-top: 1px outset #54bb994b;
+  border-bottom: 1px inset #ff9b2927;
+  color: azure;
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 0;
+}
+
+.skills-cards-row {
+  flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
+}
+
+.skills-card {
+  padding-top: 1rem;
+  border-top: 1px inset #54bb994b;
+  border-right: 1px inset #54bb991e;
+  border-bottom: 1px inset #54bb991c;
+  border-left: 1px inset #54bb991c;
+  background: #02000048;
+  background: linear-gradient(121deg, #58514c56 3%, #02000048 23%, #01160c31 81%, #54bb9941 85%, #0203025e 89%);
+  /* background: #54bb99;
+  background: linear-gradient(171deg, #58514c56 3%, #54bb99 23%, #   43%, #54bb99 65%, #ecfff6c0 81%, #54bb99 85%, #2c11038c 89%); */
+  border-radius: 8px 10px;
+  -webkit-border-radius: 8px 10px;
+  -moz-border-radius: 8px 10px;
+  -ms-border-radius: 8px 10px;
+  -o-border-radius: 8px 10px;
+}
+
+.skills-card-left {
+  margin: 0 0 1rem -1rem;
+}
+
+.skills-card-right {
+  margin: 13rem 0 1rem 1rem;
+}
+
+.skills-card p {
+  line-height: 1.65rem;
+  margin-bottom: 1.5rem;
+  font-size: 17px;
+}
+
+.skills-container .far,
+.skills-container .fas {
+  padding-top: 3px;
+  color: azure;
+  font-size: 2.5rem;
+}
+
+.skills-container h3 {
+  color: #31f3b9e3;
+  padding-left: 0.6rem;
+  padding-bottom: 16px;
+  border-bottom: 1px outset #00fbc53b;
+}
+
+/* .skills-container p,
+.skills-container li {
+  color: #1f0404;
+  padding-left: 0.6rem;
+  padding-right: 0.3rem;
+  padding-bottom: .5rem;
+  margin-left: -2rem;
+} */
+
+@media (max-width: 1200px) {
+  .skills-container>div {
+    flex-wrap: wrap;
+  }
+}

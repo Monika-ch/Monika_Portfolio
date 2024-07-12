@@ -21,7 +21,7 @@ const shuffleTiles = (tiles) => {
 const PatternMatch = () => {
   const [pattern, setPattern] = useState(generatePattern());
   const [tiles, setTiles] = useState([...pattern]);
-  const [timeLeft, setTimeLeft] = useState(30);
+  const [timeLeft, setTimeLeft] = useState(45);
   const [isSolved, setIsSolved] = useState(false);
   const [isTimeUp, setIsTimeUp] = useState(false);
   const [gameStarted, setGameStarted] = useState(false); // Track if the game has started
@@ -93,7 +93,7 @@ const PatternMatch = () => {
       setTiles([]);
       setIsSolved(false);
       setIsTimeUp(false);
-      setTimeLeft(30);
+      setTimeLeft(45);
       // setShowHint(true);
       setGameStarted(false);
       setAnimateTiles(false);
@@ -150,7 +150,6 @@ const PatternMatch = () => {
           <button className="pm-PlayAgain" onClick={handleReset}>Play Again</button>
         )}
         {/* <button className="pm-PlayAgain" onClick={handleReset}>Play Again</button> */}
-
       </div>
       {showHint && <p className="pm-hint">Click the tiles to change their colors.</p>}
     </div>
