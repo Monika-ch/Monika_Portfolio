@@ -7,16 +7,10 @@ import {
   NavLink,
   Collapse,
 } from "reactstrap";
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../styled-components/NavigationBar.css";
 
 class NavigationBar extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     isNavOpen: false,
-  //   };
-  // }
   constructor(props) {
     super(props);
     this.state = {
@@ -30,16 +24,19 @@ class NavigationBar extends Component {
       isNavOpen: !this.state.isNavOpen,
     });
   }
+
   render() {
     return (
       <>
         <div className='logo-container'>
           <h1 className='logo'><a href="/#story">൩</a></h1>
         </div >
-        <Navbar sticky='top' expand='md' className='navBar'>
+        <Navbar expand='md' className='navBar' color="light" light>
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
-            <Nav navbar className='m-auto list-unstyled'>
+            {/* <Nav className='m-auto list-unstyled' navbar> */}
+            <Nav className="mr-auto" navbar>
+
               <NavItem>
                 <NavLink className='nav_link active' tag={Link} to='/'>
                   My Story
