@@ -16,6 +16,8 @@ const HomePage = () => {
 
   return (
     <section className='home-page-container'>
+      {/* <NavigationBar /> */}
+
       <div className='home-page'>
         <section id="story" className='story-section'>
           <h1>

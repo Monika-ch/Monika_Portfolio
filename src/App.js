@@ -1,4 +1,7 @@
+import { Routes, Route } from 'react-router-dom';
 import Home from "./components/Home";
+// import WhatIDo from './components/WhatIDo';
+// import Contact from "./components/Contact";
 import './App.css';
 
 function App() {
@@ -6,7 +9,7 @@ function App() {
     <div className='App'>
       <div className='App-container'>
         <div className="empty-div"></div>
-        <Home />
+          <Home />
       </div>
     </div>
   );

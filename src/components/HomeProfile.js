@@ -14,7 +14,7 @@ const HomeProfile = () => {
     "https://monikaresume.blob.core.windows.net/monika-resume/ResumeNew.pdf";
 
   return (
-    <div id='HomeProfile' className='Home-profile-container order-lg-2 order-1 col-lg-5'>
+    <div id='HomeProfile' className='Home-profile-container col-lg-5'>
       <div className='profile-container'>
         <div className='profile-thumbnail'>
           <img
