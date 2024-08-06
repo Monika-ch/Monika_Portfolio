@@ -135,14 +135,16 @@
 } */
 
 .personal-info-container .row:nth-child(1),
-.personal-info-container .row:nth-child(2) {
+.personal-info-container .row:nth-child(2),
+.personal-info-container .row:nth-child(3) {
   padding: 13px 0 3px 0;
   border-bottom: 1px solid rgba(240, 255, 255, 0.1);
 }
 
-.personal-info-container .row:nth-child(3) {
+.personal-info-container .row:nth-child(4) {
   padding: 13px 0 3px 0;
 }
+
 
 .personal-info-container i {
   /* color: rgba(240, 255, 255, 0.74); */

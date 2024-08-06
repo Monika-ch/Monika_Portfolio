@@ -1,6 +1,6 @@
 
 import React from 'react';
-import PatternMatch1 from './PatternMatch1';
+import PatternMatch from './PatternMatch';
 import '../styled-components/Home.css';
 import '../styled-components/ContentContainer.css';
 import '../styled-components/Content.css';
@@ -30,7 +30,7 @@ const MyStory = () => {
           <p>Whether you need a simple landing page or a complex web application, I can help you achieve your goals. Check out my work and get in touch. <span className='highlight-text'>Let’s collaborate on your next project. </span></p>
         </div>
       </div>
-      <PatternMatch1 />
+      <PatternMatch />
     </section>
   )
 }

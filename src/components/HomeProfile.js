@@ -101,13 +101,15 @@ const HomeProfile = () => {
             <p className='personal-info'>+1-(425)-265-7756</p>
           </div>
         </div>
-        {/* <div className='row'>
-          <div className='col-3'>icon</div>
-          <div className='col'>
-            <p className='personal-info-title'></p>
-            <p className='personal-info'></p>
+        <div className='row'>
+          <div className='col-3'>
+            <i className="fas fa-briefcase"></i>
           </div>
-        </div> */}
+          <div className='col'>
+            <p className='personal-info-title'>Work Authorization</p>
+            <p className='personal-info'>Green Card EAD</p>
+          </div>
+        </div>
       </div>
     </div>
   )
