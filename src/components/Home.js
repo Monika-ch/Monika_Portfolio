@@ -14,10 +14,11 @@ const Home = () => {
   return (
     <div className='Home-page container'>
       <div className='row'>
-        <div className='col-lg-7'>
+        <div className='col-'></div>
+        <NavigationBar />
+        <div className='col-lg-7 order-lg-1 order-2'>
           <div id='ContentContainer' className='Content-container'>
             <main>
-              <NavigationBar />
               <Routes>
                 <Route path='/' element={<MyStory />} />
                 <Route path='/Portfolio' element={<MyStory />} />
