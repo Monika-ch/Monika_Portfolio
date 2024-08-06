@@ -1,0 +1,111 @@
+.skills-container {
+  margin-top: 13rem;
+  margin-bottom: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  width: 70%;
+  font-size: 14px;
+  border-top: 1px inset #ff9b2928;
+  border-bottom: 1px inset #ff9b2927;
+}
+
+.skills-container>div {
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: auto;
+}
+
+.skills-container .skills-box>div {
+  /*box-sizing: content-box;
+  */
+  text-align: left;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 6rem;
+  border-bottom: 3px solid #ff9b29;
+  border-radius: 4px 10rem;
+  background: rgba(255, 72, 0, 0.8);
+  background: -moz-linear-gradient(33deg,
+      rgba(80, 57, 80, 0.8) 1%,
+      rgba(255, 72, 0, 0.7) 7%,
+      rgba(255, 72, 0, 0.9) 60%,
+      rgba(27, 16, 27, 0.1) 62%);
+  background: -webkit-linear-gradient(33deg,
+      rgba(80, 57, 80, 0.8) 1%,
+      rgba(255, 72, 0, 0.7) 7%,
+      rgba(255, 72, 0, 0.9) 60%,
+      rgba(27, 16, 27, 0.1) 62%);
+  background: linear-gradient(33deg,
+      rgba(80, 57, 80, 0.8) 1%,
+      rgba(255, 72, 0, 0.7) 7%,
+      rgba(255, 72, 0, 0.9) 70%,
+      rgba(27, 16, 27, 0.1) 72%);
+  background: rgb(88, 81, 76);
+  background: linear-gradient(11deg,
+      rgba(53, 23, 4, 0.768) 3%,
+      rgba(255, 72, 0, 1) 23%,
+      rgba(255, 109, 25, 0.9) 43%,
+      rgba(252, 153, 97, 1) 72%,
+      rgba(161, 115, 91, 0.8939950980392157) 89%);
+  border-radius: 5px;
+  -webkit-border-radius: 4px 10rem;
+  -moz-border-radius: 4px 10rem;
+  -ms-border-radius: 4px 10rem;
+  -o-border-radius: 4px 10rem;
+  box-shadow: 0 45px 8px 0 rgba(206, 162, 17, 0.2),
+    0 60px 20px 0 rgba(219, 114, 54, 0.19);
+}
+
+.skills-container .heading-what-I-do {
+  background: rgb(88, 81, 76);
+  background: linear-gradient(171deg,
+      rgba(88, 81, 76, 0.336) 3%,
+      rgb(255, 72, 0, 1) 23%,
+      rgb(255, 109, 25) 43%,
+      rgba(252, 154, 97, 0.918) 75%,
+      rgba(44, 17, 3, 0.894) 89%);
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 7px;
+  text-shadow: -6px -1px 15px rgba(255, 255, 255, 0.6);
+  margin: 0 15px 5px 35px;
+  border-radius: 4px 10rem;
+}
+
+.skills-container .heading-what-I-do>h2 {
+  color: #1f0404;
+  width: 50%;
+  margin: 2rem auto 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 3.7rem;
+  font-weight: 600;
+  border-bottom: 2px solid #1f040452;
+}
+
+.skills-container .far,
+.skills-container .fas {
+  padding-top: 3px;
+  color: #1f0404;
+  font-size: 2.5rem;
+}
+
+.skills-container h3 {
+  color: #1f0404;
+  padding-left: 0.6rem;
+}
+
+.skills-container p,
+.skills-container li {
+  color: #1f0404;
+  padding-left: 0.6rem;
+  padding-right: 0.3rem;
+  padding-bottom: .5rem;
+  margin-left: -2rem;
+}
+
+@media (max-width: 1200px) {
+  .skills-container>div {
+    flex-wrap: wrap;
+  }
+}
