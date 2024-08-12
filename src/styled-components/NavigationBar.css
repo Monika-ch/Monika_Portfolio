@@ -29,7 +29,7 @@
   }
 
   .navBar {
-    /* width: 100%; */
+    width: 68vw;
     z-index: 2;
     margin: 5rem 1rem auto;
     height: 0;
@@ -55,6 +55,18 @@
       0 6px 20px 0 rgba(163, 37, 37, 0.45);
   }
 
+  .navBar .navbar-nav {
+    background: #07070696;
+    border-bottom: 1px solid rgba(255, 109, 25, 0.3);
+    width: 450px;
+    padding-bottom: 1.35rem;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+
   .navBar .nav_link {
     font-family: "Exo 2", sans-serif;
     color: #1f0404;
@@ -63,9 +75,8 @@
     padding-left: 1.72rem !important;
     padding-right: 1.72rem !important;
     border-bottom: 1px solid #1f0404;
-    margin-top: -1.8em;
+    margin-top: 3.5em;
     margin-right: 1em;
-    margin-left: 1em;
     box-shadow: 0 4px 8px 0 rgba(71, 77, 78, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #54bb99;
     background: linear-gradient(300deg,
@@ -90,10 +101,13 @@
     -o-border-radius: 5px;
   }
 
+  .navBar .navbar-nav .nav-link.active {
+    border-bottom: 5px solid rgb(255, 72, 0);
+  }
+
   .navBar .nav_link:hover,
   .navBar .nav_link:active {
     border: 1px solid #1f0404;
-    margin-top: -2em;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -105,6 +119,7 @@
     -ms-transform: scale(1.05) !important;
     -o-transform: scale(1.05) !important;
   }
+
 
   /* nav-link animation on hover STARTS HERE*/
   .navBar .nav-link {
