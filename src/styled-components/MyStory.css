@@ -20,7 +20,6 @@
 
 #story .story-container {
   box-shadow: 1px -6px 58px 0 rgba(44, 44, 44, 0.548), 0 6px 20px 0 rgba(0, 7, 1, 0.774);
-  margin-top: 2rem;
   font-size: 18px;
   /*background-color: rgba(10, 0, 0, 0.65);
   */
@@ -58,13 +57,14 @@
 }
 
 #story .about-me>div {
-  padding-top: 3.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 10rem;
   border-bottom: 1px solid orange;
+  padding-right: 1rem;
 }
 
 #story h2 {
-  margin-top: 1em;
+  margin-top: .8em;
   margin-bottom: .81em;
   font-size: 3.2rem;
   font-weight: 700;
@@ -89,12 +89,31 @@
   -webkit-text-fill-color: transparent;
 }
 
+#story .about-me-border-box {
+  padding: 2.5rem;
+  padding: 2.5rem 4.5rem 1rem 2.5rem;
+  border: 1px solid rgba(240, 255, 255, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
 #story p {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.2rem;
+}
+
+#story p .opening-p-space {
+  margin-left: 4.3rem;
 }
 
 #story p:hover {
   color: #c6ebe0;
+}
+
+#story p .highlight-text {
+  color: #00fbc5;
 }
 
 #story p:hover .highlight-text {
@@ -125,4 +144,55 @@
   */
   border-radius: 150px 10px;
 
+}
+
+/* Typewriter effect for intro text */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100vw;
+  }
+}
+
+@keyframes blinkCursor {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: rgb(255, 72, 0);
+  }
+}
+
+#story h2 {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid rgb(255, 72, 0);
+  /*Cursoreffect*/
+  white-space: nowrap;
+  width: 0;
+  animation: typewriter 500ms steps(10) 250ms forwards, blinkCursor 500ms step-end infinite;
+  -webkit-animation: typewriter 500ms steps(10) 250ms forwards, blinkCursor 500ms step-end infinite;
+}
+
+/* Fade-in effect for about me paragraph */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.about-me-border-box p {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 300ms forwards;
+  -webkit-animation: fadeIn 1s ease-in 300ms forwards;
 }

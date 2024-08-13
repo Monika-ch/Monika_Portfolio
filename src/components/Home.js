@@ -8,7 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import '../styled-components/Home.css';
 import '../styled-components/ContentContainer.css';
-import '../styled-components/Content.css';
+import '../styled-components/MyStory.css';
 
 const Home = () => {
   return (
