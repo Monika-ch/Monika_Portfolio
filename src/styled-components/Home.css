@@ -8,7 +8,8 @@
   letter-spacing: 1.6px;
   letter-spacing: 2px;
   padding: 3rem 0;
-  background-color: #00000063;
+  background-color: #000000b2;
+  height: 1600px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -68,7 +69,7 @@
 
 .Home-page,
 .Home-profile-container .fab,
-.Home-profile-container .fas,
+.Home-profile-container .fa-download,
 #HomeProfile .downloadResume-box a i,
 #HomeProfile .downloadResume-box a:hover {
   color: azure;
@@ -130,10 +131,6 @@
   -o-border-radius: 20px;
 }
 
-/* .personal-info-container .row {
-  border-bottom: 1px solid rgba(240, 255, 255, 0.1);
-} */
-
 .personal-info-container .row:nth-child(1),
 .personal-info-container .row:nth-child(2),
 .personal-info-container .row:nth-child(3) {
@@ -184,4 +181,8 @@
 
 .fa-phone {
   color: rgba(0, 255, 255, 0.8);
+}
+
+.fa-briefcase {
+  color: rgb(255, 130, 255);
 }

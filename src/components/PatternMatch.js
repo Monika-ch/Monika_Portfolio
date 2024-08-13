@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styled-components/PatternMatch1.css';
+import '../styled-components/PatternMatch.css';
 
 const generatePattern = () => {
   let pattern = [];
