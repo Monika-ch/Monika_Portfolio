@@ -29,14 +29,6 @@
   -o-border-radius: 10px;
 }
 
-.footer-section,
-.fas,
-.fab,
-.downloadResume,
-.profileLink {
-  color: #1f0404;
-}
-
 .footer-section .footer-container {
   box-sizing: border-box;
   padding: 2em;
