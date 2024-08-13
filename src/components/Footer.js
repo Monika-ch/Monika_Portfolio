@@ -12,7 +12,7 @@ export default function Footer() {
 
   return (
     <React.Fragment>
-      <section className='footer-section'>
+      <section className='footer-section text-black'>
         <div className='container footer-container'>
           <div className='row footer-info'>
             <div className='col contact d-flex'>
@@ -31,7 +31,7 @@ export default function Footer() {
                   rel='noopener noreferrer'
                   aria-label='Gmail'
                 >
-                  <i className='fas fa-envelope fa-2x'></i>
+                  <i className='fas fa-envelope fa-2x text-black'></i>
                 </a>
               </div>
               <div className='social-media-box mx-2'>
@@ -41,7 +41,7 @@ export default function Footer() {
                   rel='noopener noreferrer'
                   aria-label='LinkedIn'
                 >
-                  <i className='fab fa-linkedin fa-2x'></i>
+                  <i className='fab fa-linkedin fa-2x text-black'></i>
                 </a>
               </div>
               <div className='social-media-box mx-2'>
@@ -51,7 +51,7 @@ export default function Footer() {
                   rel='noopener noreferrer'
                   aria-label='Github'
                 >
-                  <i className='fab fa-github fa-2x'></i>
+                  <i className='fab fa-github fa-2x text-black'></i>
                 </a>
               </div>
               <div className='downloadResume-box mx-2'>
@@ -61,11 +61,11 @@ export default function Footer() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button type='button' className='btn downloadResume'>
+                  <button type='button' className='btn downloadResume text-black'>
                     Resume
                   </button>
 
-                  <i className='fas fa-download'></i>
+                  <i className='fas fa-download text-black'></i>
                 </a>
               </div>
             </div>
@@ -78,14 +78,14 @@ export default function Footer() {
               ̶̶̶̶  «̶ ̶̶̶ ̶ «̶ ̶̶̶ 　　 ℘ortfolio of{" "}
               <a
                 href='https://www.linkedin.com/in/monika12b/'
-                className='profileLink'
+                className='profileLink text-black'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Navigation to LinkedIn Profile'
               >
                 ൩onika
               </a>{" "}
-              Ⓒ 2o24 　　 ̶ ̶ ̶»̶ ̶̶̶ ̶ »̶ ̶̶̶  
+              Ⓒ 2o24 　　 ̶ ̶ ̶»̶ ̶̶̶ ̶ »̶ ̶̶̶
             </div>
           </div>
         </div>
