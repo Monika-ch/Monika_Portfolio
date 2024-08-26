@@ -1,23 +1,6 @@
 .pattern-match {
-  border: 10px solid #54bb99;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-top: 15rem;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  padding-top: 5rem;
   height: 550px;
-  border-radius: 20px;
-  /*border-bottom: 1px solid rgb(24, 24, 24);
-  */
-  /*box-shadow: 0 6px 18px 0 rgb(0, 0, 0),    -20px 1px 140px 3px rgba(248, 197, 150, 0.336);
-  */
-  box-shadow: 0 6px 18px 0 rgb(0, 0, 0), -20px 1px 60px 3px rgba(8, 5, 2, 0.336);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 .pm-grid-container {

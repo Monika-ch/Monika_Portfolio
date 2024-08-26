@@ -4,7 +4,7 @@ import NavigationBar from './NavigationBar';
 import HomeProfile from './HomeProfile';
 import MyStory from './MyStory';
 import WhatIDo from './WhatIDo';
-import Contact from './Contact';
+import ContactPage from './ContactPage';
 import Footer from './Footer';
 import '../styled-components/Home.css';
 import '../styled-components/ContentContainer.css';
@@ -22,7 +22,7 @@ const Home = () => {
                 <Route path='/' element={<MyStory />} />
                 <Route path='/Portfolio' element={<MyStory />} />
                 <Route path='/whatIdo' element={<WhatIDo />} />
-                <Route path='/contact' element={<Contact />} />
+                <Route path='/contact' element={<ContactPage />} />
               </Routes>
             </main>
             <footer>
