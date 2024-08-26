@@ -7,7 +7,6 @@
   letter-spacing: 1px;
   line-height: 24px;
   font-size: 17px;
-  font-style: italic;
 }
 
 #story:hover {
@@ -25,12 +24,12 @@
 }
 
 #story .story-container:hover {
-  border-bottom: 10px solid orange;
-  border-radius: 10px 100px / 120px;
-  -webkit-border-radius: 10px 100px / 120px;
-  -moz-border-radius: 10px 100px / 120px;
-  -ms-border-radius: 10px 100px / 120px;
-  -o-border-radius: 10px 100px / 120px;
+  /*border-bottom: 10px solid orange;
+  */border-radius: 10px 130px / 120px;
+  -webkit-border-radius: 10px 130px / 120px;
+  -moz-border-radius: 10px 130px / 120px;
+  -ms-border-radius: 10px 130px / 120px;
+  -o-border-radius: 10px 130px / 120px;
 }
 
 #story .about-me {
@@ -49,7 +48,7 @@
   padding-top: 2.5rem;
   padding-bottom: 10rem;
   border-bottom: 1px solid orange;
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 
 #story h2 {
@@ -106,7 +105,6 @@
 }
 
 #story p:hover .highlight-text {
-  color: #00fbc5;
   color: #ffe0bd;
 }
 
@@ -120,15 +118,31 @@
 
 #story .story-container .future-goals {
   margin-top: 8em;
+  margin-bottom: 3em;
   border-bottom: 1px solid #00fbc5a1;
-  padding: 7rem 2rem 8rem 5rem;
-  font-size: 20px;
+  padding: 7rem 12rem 8rem 7rem;
   background: #000;
-  background: radial-gradient(circle farthest-side at top left, #1f2926cb 0%, #02050467 40%, #020504 100%);
-  /*box-shadow: 1px -6px 80px 0 rgba(32, 83, 25, 0.459), 0 6px 20px 0 rgba(7, 0, 0, 0.534);
-  */
+  background: radial-gradient(circle farthest-side at top left, #70837ccb 0%, #02050467 30%, #020504 100%);
   border-radius: 150px 10px;
+}
 
+#story .try-puzzle-text {
+  margin-top: 7em;
+  border-bottom: 1px solid #00fbc5a1;
+  padding: 7rem 12rem 8rem 7rem;
+  font-size: 20px;
+  background: #020504a6;
+  background: radial-gradient(circle farthest-side at top right, #80a59acb 0%, #020504a6 40%, #020504 100%);
+  border-radius: 150px 10px;
+}
+
+#story .try-puzzle-text p{
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+#story .try-puzzle-text p span{
+  color: #fb8500;
 }
 
 /* Typewriter effect for intro text */
@@ -136,16 +150,19 @@
   from {
     width: 0;
   }
+
   to {
     width: 100vw;
   }
 }
 
 @keyframes blinkCursor {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: rgb(255, 72, 0);
   }
@@ -155,7 +172,8 @@
   display: inline-block;
   overflow: hidden;
   border-right: 3px solid rgb(255, 72, 0);
-  /*Cursoreffect*/white-space: nowrap;
+  /*Cursoreffect*/
+  white-space: nowrap;
   width: 0;
   animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;
   -webkit-animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;

@@ -89,18 +89,25 @@
 }
 
 #HomeProfile .downloadResume-box a .downloadResume {
-  /*border: 1px solid azure;
-  */
+  border: 1px solid #f0ffff3a;
   width: 320px;
   color: #fffcf1;
   font-size: 19px;
+  letter-spacing: 1px;
   padding-right: 2.7rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #6bebc0c7;
+  background-color: #10805ac7;
   /*background-color: #bb1869e1;
   */
+  background: #54bb99;
+  background: linear-gradient(50deg, #61f5c4 10%, #108ac7 38%, #fb8500 65%, #bb1869e1 70%, azure 87%);
   border-radius: 13px;
+  transition: background 0.4s ease-in-out;
+  -webkit-transition: background 0.4s ease-in-out;
+  -moz-transition: background 0.4s ease-in-out;
+  -ms-transition: background 0.4s ease-in-out;
+  -o-transition: background 0.4s ease-in-out;
 }
 
 #HomeProfile .downloadResume-box a i {
@@ -108,15 +115,13 @@
 }
 
 #HomeProfile .downloadResume-box a:hover .downloadResume {
-  border: 1px solid #54bb99;
-  background-color: #1f0404;
-  /* width: 300px;
-  color: #fffcf1;
-  padding-right: 2.7rem; */
+  border: 1px solid #10805ac7;
+  background: #54bb99;
+  background: linear-gradient(50deg, #61f5c4 2%, #108ac7 35%, #fb8500 60%, #bb1869e1 70%, azure 90%);
 }
 
 #HomeProfile .downloadResume-box a:hover i {
-  color: #54bb99;
+  color: #ffe0bd;
 }
 
 .personal-info-container {

@@ -32,6 +32,10 @@ const MyStory = () => {
           <p>Whether you need a simple landing page or a complex web application, I can help you achieve your goals. Check out my work and get in touch. <span className='highlight-text'>Let’s collaborate on your next project. </span></p>
         </div>
       </div>
+      <div className='try-puzzle-text'>
+        <h3>Aren't you bored of just reading?</h3>
+        <p>Why not tease your mind with a <span>puzzle</span>!?</p>
+      </div>
       <PatternMatch />
     </section>
   )

@@ -101,7 +101,6 @@ const PatternMatch = () => {
   };
 
   return (
-    // <div className="pattern-match green-border-box">
     <div className="pattern-match green-border-box">
       <div className="pm-grid-container">
         <div className="pm-pattern">
