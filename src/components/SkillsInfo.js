@@ -464,6 +464,54 @@ class SkillsInfo extends Component {
               </div>
             </div>
           </div>
+          <div className='row skills-box'>
+            {/* Prompting */}
+            <div className='cloud-providers-box col-lg-6 container'>
+              <div className='row'>
+                <div className='col-2'>
+                  <i className='fas fa-cloud'></i>
+                </div>
+                <div className='col-10'>
+                  <h3 className='heading-cloud-providers mb-3'>
+                    Prompting
+                  </h3>
+                  <p>
+                    Leveraging cloud technologies to drive innovation and efficiency in web application development.
+                  </p>
+                  <li>
+                    Advanced expertise in optimizing AI models like ChatGPT by ranking and annotating code responses, leading to significant improvements in model performance.
+                  </li>
+                  <li>
+                    Extensive experience in evaluating the code generation capabilities of Large Language Models (LLMs), ensuring accuracy, completeness, and explainability.
+                  </li>
+                  <li>
+                    Proficient in authoring and refining algorithmic solutions, enhancing the AI's ability to respond to complex prompts with high precision.
+                  </li>
+                  <li>
+                    Specialized in critical analysis and debugging of AI-generated code, maintaining the highest standards of performance and reliability.
+                  </li>
+                  <li>
+                    Collaborative team player, contributing to AI training and development by driving innovation and setting new benchmarks in the field.
+                  </li>
+                  <li>
+                    Hands-on experience with a variety of programming languages and tools, including JavaScript, TypeScript, Python, React, and Node.js, to support robust AI training workflows.
+                  </li>
+                  <li>
+                    Proven track record of contributing to key project milestones, advancing AI capabilities in real-world applications.
+                  </li>
+                  <li>
+                    Expertise in integrating AI-driven solutions with existing technologies, optimizing workflows and enhancing overall productivity.
+                  </li>
+                  <li>
+                    Ability to articulate complex technical concepts, facilitating effective collaboration within cross-functional teams.
+                  </li>
+                  <li>
+                    Enthusiastic about leveraging AI to solve challenging problems, continuously improving models to meet evolving industry needs.
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
         </section >
       </React.Fragment >
     );
