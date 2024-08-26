@@ -2,8 +2,6 @@
   text-align: start;
   color: azure;
   background-color: #00000081;
-  /* box-shadow: 1px -6px 80px 0 rgba(60, 89, 90, 0.308),
-    0 6px 20px 0 rgba(7, 0, 0, 0.534); */
   font-family: "Exo 2", sans-serif;
   word-spacing: 3px;
   letter-spacing: 1px;
@@ -14,15 +12,11 @@
 
 #story:hover {
   background-color: #00000050;
-  /* box-shadow: 1px -6px 80px 0 rgba(24, 37, 31, 0.1),
-    0 6px 20px 0 rgba(7, 0, 0, 0.534); */
 }
 
 #story .story-container {
   box-shadow: 1px -6px 58px 0 rgba(44, 44, 44, 0.548), 0 6px 20px 0 rgba(0, 7, 1, 0.774);
   font-size: 18px;
-  /*background-color: rgba(10, 0, 0, 0.65);
-  */
   transition: 0.5s linear, border-color 1s linear, border-radius 0.5s ease-in;
   border-bottom: 1px solid orange;
   border-top-left-radius: 25px;
@@ -31,11 +25,6 @@
 }
 
 #story .story-container:hover {
-  /* border-color: #e9edc9;
-  border-color: #fb8500; */
-  /* border-color: #ff5e00cc; */
-  /* box-shadow: 0 -16px 8px 0 rgba(60, 89, 90, 0.308), */
-  /* 0 6px 20px 0 rgba(10, 0, 0, 0.45); */
   border-bottom: 10px solid orange;
   border-radius: 10px 100px / 120px;
   -webkit-border-radius: 10px 100px / 120px;
@@ -131,11 +120,7 @@
 
 #story .story-container .future-goals {
   margin-top: 8em;
-  /*padding: 1.2rem;
-  */
   border-bottom: 1px solid #00fbc5a1;
-  /*padding-bottom: 1.8rem;
-  */
   padding: 7rem 2rem 8rem 5rem;
   font-size: 20px;
   background: #000;
@@ -151,19 +136,16 @@
   from {
     width: 0;
   }
-
   to {
     width: 100vw;
   }
 }
 
 @keyframes blinkCursor {
-
   from,
   to {
     border-color: transparent;
   }
-
   50% {
     border-color: rgb(255, 72, 0);
   }
@@ -173,11 +155,10 @@
   display: inline-block;
   overflow: hidden;
   border-right: 3px solid rgb(255, 72, 0);
-  /*Cursoreffect*/
-  white-space: nowrap;
+  /*Cursoreffect*/white-space: nowrap;
   width: 0;
-  animation: typewriter 500ms steps(10) 250ms forwards, blinkCursor 500ms step-end infinite;
-  -webkit-animation: typewriter 500ms steps(10) 250ms forwards, blinkCursor 500ms step-end infinite;
+  animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;
+  -webkit-animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;
 }
 
 /* Fade-in effect for about me paragraph */

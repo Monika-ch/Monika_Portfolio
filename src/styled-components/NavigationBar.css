@@ -35,25 +35,17 @@
     height: 0;
     top: 0;
     position: fixed;
-    background-color: rgb(255, 72, 0);
-    background: linear-gradient(300deg,
-        rgba(19, 2, 19, 0.8) 22%,
-        rgb(255, 72, 0) 7%,
-        rgba(255, 109, 25, 0.9) 89%,
-        rgba(27, 16, 27, 0.1) 98%);
-    background: -moz-linear-gradient(300deg,
-        rgba(19, 2, 19, 0.8) 22%,
-        rgb(255, 72, 0) 7%,
-        rgba(255, 109, 25, 0.9) 89%,
-        rgba(27, 16, 27, 0.1) 98%);
-    background: -webkit-linear-gradient(300deg,
-        rgba(19, 2, 19, 0.8) 22%,
-        rgb(255, 72, 0) 23%,
-        rgba(255, 109, 25, 0.9) 77%,
-        rgba(27, 16, 27, 0.2) 78%);
-    box-shadow: 0 6px 8px 0 rgba(172, 39, 5, 0.61),
-      0 6px 20px 0 rgba(163, 37, 37, 0.45);
-  }
+    background-color: rgb(255, 60, 0);
+    background: linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 7%, rgba(255, 109, 25, 0.9) 89%, rgba(27, 16, 27, 0.1) 98%);
+    background: -moz-linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 7%, rgba(255, 109, 25, 0.9) 89%, rgba(27, 16, 27, 0.1) 98%);
+    background: -webkit-linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 23%, rgba(255, 109, 25, 0.685) 77%, rgba(27, 16, 27, 0.2) 78%);
+    box-shadow: 0 6px 8px 0 rgba(216, 97, 67, 0.61), 0 6px 20px 0 rgba(163, 37, 37, 0.45);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
 
   .navBar .navbar-nav {
     background: #07070696;
@@ -65,7 +57,7 @@
     -moz-border-radius: 25%;
     -ms-border-radius: 25%;
     -o-border-radius: 25%;
-}
+  }
 
   .navBar .nav_link {
     font-family: "Exo 2", sans-serif;
