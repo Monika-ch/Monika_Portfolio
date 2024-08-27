@@ -162,6 +162,20 @@
   }
 
   @media (max-width: 772px) {
+    .logo-container {
+      box-shadow: none;
+      top: .6rem;
+      right: .1rem;
+      width: 4.4rem;
+      height: 4rem;
+    }
+
+    .logo a {
+      box-shadow: -1px -2px 5px #e49e1dad;
+      font-size: 2.5rem;
+      padding: 0 .9rem .7rem;
+    }
+
     .navBar {
       width: 0%;
       margin: 0 .8rem auto;
@@ -181,9 +195,8 @@
       width: 700px;
       border: 1px solid #00fbc51e;
       z-index: 1;
-      /*padding-bottom: .5rem;
-      */border-radius: 4px;
-}
+      border-radius: 4px;
+    }
 
 
     .navBar .nav_link {
