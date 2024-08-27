@@ -20,7 +20,7 @@ const Home = () => {
             <main>
               <Routes>
                 <Route path='/' element={<MyStory />} />
-                <Route path='/Portfolio' element={<MyStory />} />
+                <Route path='/Monika_Portfolio' element={<MyStory />} />
                 <Route path='/whatIdo' element={<WhatIDo />} />
                 <Route path='/contact' element={<ContactPage />} />
               </Routes>
