@@ -19,7 +19,7 @@ const HomeProfile = () => {
         <div className='profile-thumbnail'>
           <img
             src={image}
-            alt="Monika's Profile Photo"
+            alt="A photo of Monika"
             className="profile-photo"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
