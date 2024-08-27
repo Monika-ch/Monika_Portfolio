@@ -1,6 +1,6 @@
 # About Me
 
-I’m a self-coached web wizard with 4 years of experience conjuring up high-quality, scalable web applications for Microsoft and other top-tier clients. My toolkit? JavaScript, TypeScript, Python, React, React Native, REST APIs—you name it. I’m all about crafting delightful customer experiences and pushing the boundaries with personal projects. Oh, and recently, I’ve taken on a new adventure as a Prompt Engineer at Remotasks, helping train AI models like ChatGPT to make them as sharp and human-like as possible.
+I’m a self-coached web wizard with 4 years of experience conjuring up high-quality, scalable web applications for Microsoft and other top-tier clients. My toolkit? JavaScript, TypeScript, Python, React, React Native, REST APIs—you name it. I’m all about crafting delightful customer experiences and pushing the boundaries with personal projects. Oh, and recently, I’ve taken on a new adventure as a Prompt Engineer at Remotasks, helping improve AI models like ChatGPT to make them as sharp and human-like as possible.
 
 # Portfolio Website
 
