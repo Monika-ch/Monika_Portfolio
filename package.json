@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://monika-ch.github.io/Monika_Portfolio",
+  "homepage": "https://monika-ch.github.io/Monika_Portfolio/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
