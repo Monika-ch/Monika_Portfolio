@@ -45,7 +45,7 @@
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-}
+  }
 
   .navBar .navbar-nav {
     background: #07070696;
@@ -142,14 +142,14 @@
   /* nav-link animation on hover ENDS HERE*/
 
   @media (max-width: 1366px) {
-    .logo-container {
+    /* .logo-container {
       right: calc(1px + 1%);
       bottom: calc(10px + 2%);
-    }
+    } */
   }
 
   @media (max-width: 992px) {
-    .logo-container {
+    /* .logo-container {
       box-shadow: none;
       right: .1rem;
       top: .6rem;
@@ -158,43 +158,42 @@
     .logo a {
       font-size: 3.4rem;
       padding: 0 1.2rem .9rem;
-    }
+    }*/
+  }
 
+  @media (max-width: 772px) {
     .navBar {
-      width: 60%;
-      margin: 0 1rem auto;
-    }
-
-    .bg-light {
-      background-color: none;
-      --bs-bg-opacity: 0.1;
+      width: 0%;
+      margin: 0 .8rem auto;
     }
 
     .navbar-toggler {
-      background-color: rgb(255, 72, 0);
-      box-shadow: 0 6px 8px 0 rgba(172, 39, 5, 0.61),
-        0 6px 20px 0 rgba(163, 37, 37, 0.45);
+      background-color: rgb(255, 109, 25);
+      padding: 4px 6px;
+      border-radius: 25%;
+      -webkit-border-radius: 25%;
+      -moz-border-radius: 25%;
+      -ms-border-radius: 25%;
+      -o-border-radius: 25%;
     }
 
-    .navbar-nav {
+    .navBar .navbar-nav {
+      width: 700px;
+      border: 1px solid #00fbc51e;
       z-index: 1;
-      background: #00000094;
-      padding-bottom: .5rem;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-    }
+      /*padding-bottom: .5rem;
+      */border-radius: 4px;
+}
+
 
     .navBar .nav_link {
-      margin-top: 1.3rem;
-      margin-right: 7em;
-      margin-left: 0;
+      font-size: .9em;
+      margin-top: .8rem;
+      padding: 3px;
+      width: 160px;
     }
 
-    .navBar .nav_link:hover,
-    .navBar .nav_link:active {
-      margin-top: 1.3em;
+    .navBar .navbar-nav .nav-link.active {
+      border-bottom: 5px solid rgba(255, 109, 25, 0.9);
     }
   }
