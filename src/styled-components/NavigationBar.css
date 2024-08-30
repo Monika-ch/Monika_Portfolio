@@ -161,7 +161,7 @@
     }*/
   }
 
-  @media (max-width: 772px) {
+  @media (max-width: 767px) {
     .logo-container {
       box-shadow: none;
       top: .6rem;

@@ -33,7 +33,8 @@ const MyStory = () => {
         </div>
       </div>
       <div className='try-puzzle-text'>
-        <h3>Aren't you bored of just reading?</h3>
+        <h3>Bored of the usual? Need a brain break?</h3>
+        <h4>Want a fun challenge?</h4>
         <p>Why not tease your mind with a <span>puzzle</span>!?</p>
       </div>
       <PatternMatch />

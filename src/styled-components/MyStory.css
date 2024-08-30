@@ -25,7 +25,8 @@
 
 #story .story-container:hover {
   /*border-bottom: 10px solid orange;
-  */border-radius: 10px 130px / 120px;
+  */
+  border-radius: 10px 130px / 120px;
   -webkit-border-radius: 10px 130px / 120px;
   -moz-border-radius: 10px 130px / 120px;
   -ms-border-radius: 10px 130px / 120px;
@@ -47,8 +48,8 @@
 #story .about-me>div {
   padding-top: 2.5rem;
   padding-bottom: 10rem;
-  border-bottom: 1px solid orange;
   padding-right: 4rem;
+  border-bottom: 1px solid orange;
 }
 
 #story h2 {
@@ -78,7 +79,6 @@
 }
 
 #story .about-me-border-box {
-  padding: 2.5rem;
   padding: 2.5rem 4.5rem 1rem 2.5rem;
   border: 1px solid rgba(240, 255, 255, 0.1);
   border-radius: 20px;
@@ -118,7 +118,7 @@
 
 #story .story-container .future-goals {
   margin-top: 8em;
-  margin-bottom: 3em;
+  margin-bottom: 2.3em;
   border-bottom: 1px solid #00fbc5a1;
   padding: 7rem 12rem 8rem 7rem;
   background: #000;
@@ -129,19 +129,19 @@
 #story .try-puzzle-text {
   margin-top: 7em;
   border-bottom: 1px solid #00fbc5a1;
-  padding: 7rem 12rem 8rem 7rem;
+  padding: 6rem 12rem 8rem 7rem;
   font-size: 20px;
   background: #020504a6;
   background: radial-gradient(circle farthest-side at top right, #80a59acb 0%, #020504a6 40%, #020504 100%);
   border-radius: 150px 10px;
 }
 
-#story .try-puzzle-text p{
+#story .try-puzzle-text p {
   margin-top: 1rem;
   font-style: italic;
 }
 
-#story .try-puzzle-text p span{
+#story .try-puzzle-text p span {
   color: #fb8500;
 }
 
@@ -194,4 +194,66 @@
   opacity: 0;
   animation: fadeIn 1s ease-in 300ms forwards;
   -webkit-animation: fadeIn 1s ease-in 300ms forwards;
+}
+
+@media (max-width: 767px) {
+  #story .about-me {
+    padding: 1rem 2rem 3rem;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+  }
+
+  #story .about-me>div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0;
+    border-bottom: none;
+  }
+
+  #story .about-me-border-box {
+    padding: .8rem;
+  }
+
+  #story h2 {
+    margin-top: 5rem;
+    margin-bottom: 1.7em;
+    font-size: 2.4rem;
+    letter-spacing: 4px;
+  }
+
+  #story .p1,
+  #story .p2 {
+    margin-bottom: 5rem;
+  }
+
+  #story .p3 {
+    margin-bottom: 3rem;
+  }
+
+  #story .story-container h3 {
+    margin-bottom: 1.2em;
+  }
+
+  #story .story-container .future-goals {
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+    padding: 5rem 3rem 4rem;
+  }
+
+  #story .try-puzzle-text {
+    margin-top: 5rem;
+    padding: 5rem 3rem 4rem;
+  }
+
+  #story .try-puzzle-text h3 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  #story .try-puzzle-text h4 {
+    display: none;
+  }
 }

@@ -191,3 +191,16 @@
 .fa-briefcase {
   color: rgb(255, 130, 255);
 }
+
+@media (max-width: 991px) {
+  .Home-profile-container {
+    height: 100%;
+    margin-bottom: .5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .Home-page {
+    padding-bottom: 1.2rem;
+  }
+}

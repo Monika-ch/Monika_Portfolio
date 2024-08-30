@@ -7,8 +7,8 @@ export default function Footer() {
   //   "https://drive.google.com/uc?export=download&id=1rYE75B9b-efX3OS4cuT7FXttdOoG_ToTAD3njavx-1E";
 
   // AZURE PUBLIC LINK FOR RESUME DOWNLOAD
-  const url =
-    "https://monikaresume.blob.core.windows.net/monika-resume/ResumeNew.pdf";
+
+  const url = "https://monikaresume.blob.core.windows.net/monika-resume/ResumeNew_v2.pdf";
 
   return (
     <React.Fragment>
@@ -16,14 +16,6 @@ export default function Footer() {
         <div className='container footer-container'>
           <div className='row footer-info'>
             <div className='col contact d-flex'>
-              {/* <a
-                href='https://drive.google.com/open?export=download&id=1rYE75B9b-efX3OS4cuT7FXttdOoG_ToTAD3njavx-1E'
-                target='_blank'
-                rel='noopener noreferrer'
-                download='MonikaResume.pdf'
-              >
-                Click here to download the PDF
-              </a> */}
               <div className='social-media-box mx-2'>
                 <a
                   href='https://mail.google.com/'
@@ -71,23 +63,30 @@ export default function Footer() {
             </div>
           </div>
           <div className='row copyRightInfo'>
-            {/* <div className='col py-5 p-md-5'>
-              »»———-　 ℘ortfolio of ൩onika Ⓒ 2o24 　———-««
-            </div> */}
-            <div className='col py-4 p-md-4'>
+            <div className='col py-4 p-md-4'><a
+              href='https://www.linkedin.com/in/monika12b/'
+              className='profileLink text-black'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Navigation to LinkedIn Profile'
+            >
               ̶̶̶̶  «̶ ̶̶̶ ̶ «̶ ̶̶̶ 　　 ℘ortfolio of{" "}
+              ൩onika
+              {" "}
+              Ⓒ 2o24 　　 ̶ ̶ ̶»̶ ̶̶̶ ̶ »̶ ̶̶̶</a>
+            </div>
+          </div>
+          {/* <div className='row copyRightInfo-sm-screen'>
+            <div className='col py-5 p-md-5'>
               <a
                 href='https://www.linkedin.com/in/monika12b/'
                 className='profileLink text-black'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Navigation to LinkedIn Profile'
-              >
-                ൩onika
-              </a>{" "}
-              Ⓒ 2o24 　　 ̶ ̶ ̶»̶ ̶̶̶ ̶ »̶ ̶̶̶
+              >»»———-　 ℘ortfolio of ൩onika Ⓒ 2o24 　———-««</a>
             </div>
-          </div>
+          </div>  */}
         </div>
       </section>
     </React.Fragment>

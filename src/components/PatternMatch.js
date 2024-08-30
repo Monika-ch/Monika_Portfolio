@@ -62,7 +62,7 @@ const PatternMatch = () => {
     if (gameStarted && tiles.every((tile, i) => tile === pattern[i])) {
       setIsSolved(true);
       setGameStarted(false);
-      setShowHint(true);
+      setShowHint(false);
     }
   }, [tiles, pattern]);
 
@@ -77,15 +77,6 @@ const PatternMatch = () => {
     setShowHint(false);
   };
 
-  // const handleReset = () => {
-  //   setPattern(generatePattern());
-  //   setTiles([]);
-  //   setIsSolved(false);
-  //   setIsTimeUp(false);
-  //   setTimeLeft(45);
-  //   setGameStarted(false); // Reset game started state
-  // };
-
   const handleReset = () => {
     setAnimateTiles(true);
     setTimeout(() => {
@@ -94,7 +85,7 @@ const PatternMatch = () => {
       setIsSolved(false);
       setIsTimeUp(false);
       setTimeLeft(45);
-      // setShowHint(true);
+      setShowHint(true);
       setGameStarted(false);
       setAnimateTiles(false);
     }, 500); // Duration of the animation
@@ -105,11 +96,6 @@ const PatternMatch = () => {
       <div className="pm-grid-container">
         <div className="pm-pattern">
           <h3>Match this Pattern</h3>
-          {/* <div className="pm-grid">
-            {pattern.map((tile, index) => (
-              <div key={index} className={`pm-tile pm-color-${tile}`}></div>
-            ))}
-          </div> */}
           <div className="pm-grid">
             {pattern.map((tile, index) => (
               <div key={index} className={`pm-tile pm-color-${tile} ${animateTiles ? 'pm-animate' : ''}`} onClick={() => handleTileClick(index)}></div>
@@ -118,15 +104,6 @@ const PatternMatch = () => {
         </div>
         <div className="pm-tiles">
           <h3>Your Tiles</h3>
-          {/* <div className="pm-grid">
-            {tiles.map((tile, index) => (
-              <div
-                key={index}
-                className={`pm-tile pm-color-${tile}`}
-                onClick={() => handleTileClick(index)}
-              ></div>
-            ))}
-          </div> */}
           <div className="pm-grid">
             {tiles.map((tile, index) => (
               <div
@@ -138,18 +115,17 @@ const PatternMatch = () => {
         </div>
       </div>
       <div className="pm-status">
-        {/* <p className='pm-timer'>Time left: <span className='pm-time'>{timeLeft}s</span></p> */}
+
         {gameStarted && <p className='pm-timer'>Time left: <span className='pm-time'>{timeLeft}s</span></p>}
-        {/* <p className="pm-message pm-win-message">Congratulations! You matched the pattern!</p> */}
-        {isSolved && <p className="pm-message pm-win-message">Congratulations! You matched the pattern!</p>}
-        {/* <p className="pm-message pm-timeup-message">Time is up!</p> */}
+
+        {isSolved && <p className="pm-message pm-win-message">Well done! The pattern is matched!</p>}
+
         {isTimeUp && !isSolved && (
           <p className="pm-message pm-timeup-message">Time is up!</p>
         )}
         {(isSolved || isTimeUp) && (
           <button className="pm-PlayAgain" onClick={handleReset}>Play Again</button>
         )}
-        {/* <button className="pm-PlayAgain" onClick={handleReset}>Play Again</button> */}
       </div>
       {showHint && <p className="pm-hint">Click the tiles to change their colors.</p>}
     </div>
