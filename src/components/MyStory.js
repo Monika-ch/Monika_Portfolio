@@ -13,8 +13,14 @@ const MyStory = () => {
         <div className='about-me'>
           <div>
             <div className="about-me-border-box">
-              <h2 className='typewriter-text'>
+              <h2 className='typewriter-text h2-lg-screen'>
                 Hi, I'm <span className='styleH1'> Monika</span> ..
+              </h2>
+              <h2 className='typewriter-text h2-sm-screen'>
+                Hi,
+                <div>
+                  I'm <span className='styleH1'> Monika</span>!
+                </div>
               </h2>
               <p className='p1'><span className='opening-p-space'></span>I'm a <span className='highlight-text'>web developer</span> with a passion for turning creative ideas into seamless web experiences. My journey began <span className='highlight-text'>four years ago</span> in a bootcamp, which led to impactful work with <span className='highlight-text'>Bing@Work Microsoft</span>. There, I enhanced Bing's enterprise search features, improved accessibility testing frameworks, and developed image search functionalities.</p>
 
@@ -33,11 +39,14 @@ const MyStory = () => {
         </div>
       </div>
       <div className='try-puzzle-text'>
-        <h3>Bored of the usual? Need a brain break?</h3>
-        <h4>Want a fun challenge?</h4>
-        <p>Why not tease your mind with a <span>puzzle</span>!?</p>
+        <h3><span className='highlight-text-orange'>Bored</span> of the usual?</h3>
+        <h3>Need a brain <span className='highlight-text-orange'>break?</span></h3>
+        {/* <h4>Want a fun challenge?</h4> */}
+        <p>Why not <span className='highlight-text'>tease your mind</span> with a <span className='highlight-text'>puzzle?!</span></p>
       </div>
-      <PatternMatch />
+      <div className='pattern-match-wrapper'>
+        <PatternMatch />
+      </div>
     </section>
   )
 }

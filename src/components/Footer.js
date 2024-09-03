@@ -62,7 +62,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className='row copyRightInfo'>
+          {/* <div className='row copyRightInfo'>
             <div className='col py-4 p-md-4'><a
               href='https://www.linkedin.com/in/monika12b/'
               className='profileLink text-black'
@@ -74,6 +74,20 @@ export default function Footer() {
               ൩onika
               {" "}
               Ⓒ 2o24 　　 ̶ ̶ ̶»̶ ̶̶̶ ̶ »̶ ̶̶̶</a>
+            </div>
+          </div> */}
+          <div className='row copyRightInfo'>
+            <div className='col py-4 p-md-4'><a
+              href='https://www.linkedin.com/in/monika12b/'
+              className='profileLink text-black'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Navigation to LinkedIn Profile'
+            >
+              __ <span className="text-p-of-portfolio">p</span>ortfolio of{" "}
+              ൩onika
+              {" "}
+              Ⓒ 2o24 __ </a>
             </div>
           </div>
           {/* <div className='row copyRightInfo-sm-screen'>

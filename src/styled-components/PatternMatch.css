@@ -51,19 +51,19 @@
 }
 
 .pm-color-0 {
-  background-color: red
+  background-color: rgb(255, 15, 127)
 }
 
 .pm-color-1 {
-  background-color: blue;
+  background-color: rgb(31, 55, 134);
 }
 
 .pm-color-2 {
-  background-color: green;
+  background-color: rgb(36, 255, 47);
 }
 
 .pm-color-3 {
-  background-color: yellow;
+  background-color: #e9ff23;
 }
 
 .pm-status {
@@ -173,16 +173,25 @@
 
 @media (max-width: 767px) {
   .pattern-match {
-    height: 420px;
+    height: 350px;
+    word-spacing: 0;
+    margin: 4rem 1rem;
   }
 
   .green-border-box {
-    border-left: 4px solid orange;
-    border-right: 4px solid orange;
-    border-top: 2px solid #54bb99;
-    border-bottom: 2px solid #54bb99;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: 2px solid #54bb994f;
+    border-right: 4px solid #54bb9973;
+    border-bottom: 2px solid rgba(255, 166, 0, 0.2);
+    border-left: 4px solid rgba(255, 166, 0, 0.3);
+    border-radius: 10px 200px;
     margin-left: 0;
     margin-right: 0;
+    -webkit-border-radius: 10px 200px;
+    -moz-border-radius: 10px 200px;
+    -ms-border-radius: 10px 200px;
+    -o-border-radius: 10px 200px;
   }
 
   .pm-grid-container {

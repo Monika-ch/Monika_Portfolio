@@ -78,6 +78,11 @@
   text-decoration: none;
 }
 
+.footer-section .text-p-of-portfolio {
+  font-family: "Playwrite CA", cursive;
+  font-weight: 300;
+}
+
 /* .footer-section .copyRightInfo-sm-screen {
   display: none;
 } */

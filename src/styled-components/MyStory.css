@@ -2,7 +2,6 @@
   text-align: start;
   color: azure;
   background-color: #00000081;
-  font-family: "Exo 2", sans-serif;
   word-spacing: 3px;
   letter-spacing: 1px;
   line-height: 24px;
@@ -50,6 +49,10 @@
   padding-bottom: 10rem;
   padding-right: 4rem;
   border-bottom: 1px solid orange;
+}
+
+#story .h2-sm-screen {
+  display: none;
 }
 
 #story h2 {
@@ -100,7 +103,8 @@
   color: #c6ebe0;
 }
 
-#story p .highlight-text {
+#story p .highlight-text,
+#story h3 .highlight-text {
   color: #00fbc5;
 }
 
@@ -128,12 +132,17 @@
 
 #story .try-puzzle-text {
   margin-top: 7em;
-  border-bottom: 1px solid #00fbc5a1;
-  padding: 6rem 12rem 8rem 7rem;
+  border-bottom: 1px solid rgba(240, 255, 255, 0.1);
+  border-right: 1px solid #fb8500;
+  padding: 8rem 12rem 6rem 7rem;
   font-size: 20px;
   background: #020504a6;
-  background: radial-gradient(circle farthest-side at top right, #80a59acb 0%, #020504a6 40%, #020504 100%);
-  border-radius: 150px 10px;
+  background: radial-gradient(circle farthest-side at bottom left, #70837ccb 0%, #02050467 30%, #020a08 100%);
+  border-radius: 10px 120px;
+}
+
+#story .try-puzzle-text h3 {
+  font-size: 22px;
 }
 
 #story .try-puzzle-text p {
@@ -141,7 +150,7 @@
   font-style: italic;
 }
 
-#story .try-puzzle-text p span {
+#story .try-puzzle-text .highlight-text-orange {
   color: #fb8500;
 }
 
@@ -171,12 +180,12 @@
 #story h2 {
   display: inline-block;
   overflow: hidden;
-  border-right: 3px solid rgb(255, 72, 0);
+  border-right: 6px solid rgb(255, 72, 0);
   /*Cursoreffect*/
   white-space: nowrap;
   width: 0;
-  animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;
-  -webkit-animation: typewriter 650ms steps(10) 350ms forwards, blinkCursor 500ms step-end infinite;
+  animation: typewriter 650ms steps(10) 400ms forwards, blinkCursor 500ms step-end infinite;
+  -webkit-animation: typewriter 650ms steps(10) 400ms forwards, blinkCursor 500ms step-end infinite;
 }
 
 /* Fade-in effect for about me paragraph */
@@ -196,14 +205,24 @@
   -webkit-animation: fadeIn 1s ease-in 300ms forwards;
 }
 
+#story .pattern-match-wrapper {
+  border: none;
+}
+
 @media (max-width: 767px) {
+  #story {
+    line-height: 30px;
+    word-spacing: 6px;
+    /* padding-top: rem; */
+  }
+
   #story .about-me {
-    padding: 1rem 2rem 3rem;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    -ms-border-radius: 150px;
-    -o-border-radius: 150px;
+    padding: 1rem 1.7rem 3rem;
+    margin-top: 6rem;
+    border-top: 1px solid #00fbc58a;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 0;
   }
 
   #story .about-me>div {
@@ -214,23 +233,51 @@
   }
 
   #story .about-me-border-box {
-    padding: .8rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  #story .h2-lg-screen {
+    display: none;
+  }
+
+  #story .h2-sm-screen {
+    display: block;
+  }
+
+  #story .h2-sm-screen div {
+    margin-top: 1.2rem;
+    font-size: 2.5rem;
   }
 
   #story h2 {
-    margin-top: 5rem;
-    margin-bottom: 1.7em;
-    font-size: 2.4rem;
-    letter-spacing: 4px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: -2px -1px 6px rgba(255, 255, 255, 0.3);
+  }
+
+  #story p .opening-p-space {
+    margin-left: 0;
   }
 
   #story .p1,
   #story .p2 {
     margin-bottom: 5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(90, 224, 197, 0.1);
   }
 
   #story .p3 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #story .p2,
+  #story .p3 {
+    margin-top: 7rem;
   }
 
   #story .story-container h3 {
@@ -239,21 +286,27 @@
 
   #story .story-container .future-goals {
     margin-top: 3.5em;
-    margin-bottom: 2em;
-    padding: 5rem 3rem 4rem;
+    margin-bottom: 1rem;
+    padding: 8rem 2rem 4rem;
   }
 
   #story .try-puzzle-text {
-    margin-top: 5rem;
-    padding: 5rem 3rem 4rem;
+    padding: 6rem 7rem 4rem 2rem;
+    border-bottom: 1px solid azure;
+    word-spacing: 3px;
   }
 
   #story .try-puzzle-text h3 {
     font-size: 20px;
-    margin-bottom: 2rem;
+    line-height: 3rem;
   }
 
   #story .try-puzzle-text h4 {
     display: none;
+  }
+
+  #story .pattern-match-wrapper {
+    border: 10px solid #61f5c4;
+    margin-top: 10rem;
   }
 }
