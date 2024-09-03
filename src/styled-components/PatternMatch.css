@@ -120,8 +120,6 @@
 }
 
 .pm-PlayAgain {
-  /* margin-top: 10px; */
-  padding: 10px 20px;
   font-size: 24px;
   color: #007bff;
   font-weight: bold;
@@ -220,7 +218,6 @@
 
   .pm-message {
     font-size: 15px;
-    margin-top: 2rem;
+    margin-top: .8rem;
   }
-
 }

@@ -53,7 +53,7 @@ const PatternMatch = () => {
   useEffect(() => {
     if (timeLeft === 0) {
       setGameStarted(false);
-      setShowHint(true);
+      setShowHint(false);
       setIsTimeUp(true)
     }
   }, [timeLeft]);
