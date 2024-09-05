@@ -6,9 +6,21 @@
     background: #54bb99;
     background: Linear-gradient(60deg, #1b1d1c 23%, #00fbc5dc 43%, #54bb99 55%, #84ffb5de 70%, #1b1d1c 87%);
     border-radius: 10px;
-    width: 600px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.google-form-wrapper iframe {
+    width: 600px;
+    height: 1577px;
+    min-height: 400px;
+    max-height: 1577px;
+}
+
+@media (max-width: 767px) {
+    .google-form-wrapper iframe {
+        width: 350px;
+    }
 }

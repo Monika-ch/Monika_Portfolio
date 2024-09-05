@@ -12,10 +12,6 @@ const GoogleForm = () => {
     <div className="google-form-wrapper">
       <iframe
         src={GOOGLE_FORM_EMBED_URL}
-        width="600"
-        height="1577"
-        minHeight="400"
-        max-height="1577"
         frameborder="0"
         marginheight="0"
         marginwidth="0"
