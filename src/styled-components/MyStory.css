@@ -36,7 +36,7 @@
   background-color: rgba(0, 0, 0, 0.774);
   border-bottom: 1px solid #00fbc5a1;
   padding-right: 2rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
   border-radius: 255px;
   -webkit-border-radius: 255px;
   -moz-border-radius: 255px;
@@ -124,7 +124,7 @@
   margin-top: 8em;
   margin-bottom: 2.3em;
   border-bottom: 1px solid #00fbc5a1;
-  padding: 7rem 12rem 8rem 7rem;
+  padding: 7rem 12rem 8rem 5rem;
   background: #000;
   background: radial-gradient(circle farthest-side at top left, #70837ccb 0%, #02050467 30%, #020504 100%);
   border-radius: 150px 10px;
@@ -134,7 +134,7 @@
   margin-top: 7em;
   border-bottom: 1px solid rgba(240, 255, 255, 0.1);
   border-right: 1px solid #fb8500;
-  padding: 8rem 12rem 6rem 7rem;
+  padding: 8rem 12rem 6rem 5rem;
   font-size: 20px;
   background: #020504a6;
   background: radial-gradient(circle farthest-side at bottom left, #70837ccb 0%, #02050467 30%, #020a08 100%);
@@ -209,6 +209,14 @@
   border: none;
 }
 
+@media (max-width: 1200px) {
+  #story h2 {
+    font-size: 3.1rem;
+    letter-spacing: 3px;
+    text-shadow: -2px -1px 6px rgba(255, 255, 255, 0.3);
+  }
+}
+
 @media (max-width: 767px) {
   #story {
     line-height: 30px;
@@ -257,7 +265,6 @@
     font-size: 4rem;
     word-spacing: 10px;
     letter-spacing: 5px;
-    text-shadow: -2px -1px 6px rgba(255, 255, 255, 0.3);
   }
 
   #story p .opening-p-space {

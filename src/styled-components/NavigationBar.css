@@ -19,7 +19,7 @@
     box-shadow: 6px 5px 8px #e49e1dad;
     background: #0000009c;
     text-decoration: none;
-    border: 1px solid #00fbc580;
+    border: 1px solid #00fbc5de;
     padding: 0 1.3rem 1rem;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -48,7 +48,7 @@
   }
 
   .navBar .navbar-nav {
-    background: #07070696;
+    background: #070706ea;
     border-bottom: 1px solid rgba(255, 109, 25, 0.3);
     width: 450px;
     padding-bottom: 1.35rem;
@@ -138,8 +138,37 @@
   .navBar .nav-link:hover {
     color: #2b2816 !important;
   }
-
+  
   /* nav-link animation on hover ENDS HERE*/
+
+  /* logo animation STARTS HERE */
+
+  @media (prefers-reduced-motion: no-preference) {
+    .logo-container {
+      animation: App-logo-spin infinite 6s linear;
+      -webkit-animation: App-logo-spin infinite 6s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotateY(0deg);
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+    }
+
+    to {
+      transform: rotateY(360deg);
+      -webkit-transform: rotateY(360deg);
+      -moz-transform: rotateY(360deg);
+      -ms-transform: rotateY(360deg);
+      -o-transform: rotateY(360deg);
+    }
+  }
+
+  /* logo animation ENDS HERE */
 
   @media (max-width: 1366px) {
     /* .logo-container {
@@ -182,6 +211,7 @@
     }
 
     .navbar-toggler {
+      border-bottom: 3px solid rgba(176, 201, 199, 0.9);
       background-color: rgb(255, 109, 25);
       padding: 4px 6px;
       border-radius: 25%;
@@ -192,18 +222,22 @@
     }
 
     .navBar .navbar-nav {
-      width: 700px;
-      border: 1px solid #00fbc51e;
       z-index: 1;
       border-radius: 4px;
+      border-bottom: none;
     }
 
+    .navbar-collapse {
+      margin-top: 1.5rem;
+      padding-top: 5px;
+      border-top: 1px solid rgba(240, 255, 255, 0.12);
+    }
 
     .navBar .nav_link {
       font-size: .9em;
-      margin-top: .8rem;
-      padding: 3px;
-      width: 160px;
+      margin-top: 3px;
+      padding: 8px 0;
+      width: 130px;
     }
 
     .navBar .navbar-nav .nav-link.active {

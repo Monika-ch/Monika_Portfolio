@@ -7,7 +7,7 @@
   z-index: 1;
   letter-spacing: 1.6px;
   letter-spacing: 2px;
-  padding: 3rem 0;
+  padding: 8rem 0 8rem;
   background-color: #000000b2;
   height: 1600px;
   border-radius: 20px;
@@ -195,6 +195,7 @@
 @media (max-width: 991px) {
   .Home-profile-container {
     height: 100%;
+    padding-top: 3rem;
     margin-bottom: .5rem;
   }
 }

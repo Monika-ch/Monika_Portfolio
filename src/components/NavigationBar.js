@@ -42,8 +42,8 @@ class NavigationBar extends Component {
     return (
       <>
         <div className='logo-container'>
-          <h1 className='logo'><a href="/#story">൩</a></h1>
-        </div >
+          <h1 className='logo'><a href="/">൩</a></h1>
+        </div>
         <Navbar expand='md' className='navBar' color="light" light>
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -53,7 +53,7 @@ class NavigationBar extends Component {
                   <NavLink
                     className={`nav_link ${this.state.activeId === item.id ? 'active' : ''}`}
                     onClick={(e) => this.handleClick(e, item.id)}
-                    tag={Link} 
+                    tag={Link}
                     to={item.path}
                   >
                     {item.title}

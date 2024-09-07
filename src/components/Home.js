@@ -15,7 +15,7 @@ const Home = () => {
     <div className='Home-page container'>
       <div className='row'>
         <NavigationBar />
-        <div className='col-lg-7 order-lg-1 order-2'>
+        <div className='col-lg-6 order-lg-1 order-2'>
           <div id='ContentContainer' className='Content-container'>
             <main>
               <Routes>
