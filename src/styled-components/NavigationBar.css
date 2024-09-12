@@ -194,19 +194,23 @@
   }
 
   @media (max-width: 992px) {
-    /* .logo-container {
-      box-shadow: none;
-      right: .1rem;
-      top: .6rem;
+    @media (prefers-reduced-motion: no-preference) {
+      .logo-container {
+        animation: App-logo-spin infinite 10s linear;
+        -webkit-animation: App-logo-spin infinite 10s linear;
+      }
     }
-
-    .logo a {
-      font-size: 3.4rem;
-      padding: 0 1.2rem .9rem;
-    }*/
   }
 
   @media (max-width: 767px) {
+
+    @media (prefers-reduced-motion: no-preference) {
+      .logo-container {
+        animation: App-logo-spin infinite 8s linear;
+        -webkit-animation: App-logo-spin infinite 8s linear;
+      }
+    }
+
     .logo-container {
       box-shadow: none;
       top: .6rem;
@@ -227,7 +231,7 @@
     }
 
     .navbar-toggler {
-      border-bottom: 3px solid rgba(176, 201, 199, 0.9);
+      border-bottom: 3px solid #00fbc5de;
       background-color: rgb(255, 109, 25);
       padding: 4px 6px;
       border-radius: 25%;
