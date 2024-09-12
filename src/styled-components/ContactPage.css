@@ -21,6 +21,18 @@
 
 @media (max-width: 767px) {
     .google-form-wrapper iframe {
+        width: 550px;
+    }
+}
+
+@media (max-width: 575px) {
+    .google-form-wrapper iframe {
+        width: 500px;
+    }
+}
+
+@media (max-width: 479px) {
+    .google-form-wrapper iframe {
         width: 350px;
     }
 }

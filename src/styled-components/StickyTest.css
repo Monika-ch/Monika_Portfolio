@@ -1,0 +1,28 @@
+.div1 {
+  font-size: 25px;
+  width: 100%;
+  height: 12rem;
+  background: #d8a3a3;
+  padding: 3rem 18rem;
+}
+
+.div2 {
+  font-size: 25px;
+  width: 100%;
+  height: 5rem;
+  background: #7c80be;
+  border: 5px solid #9e65be;
+  padding: 1rem 3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50rem;
+  z-index: 1071;
+}
+
+.div3 {
+  font-size: 25px;
+  width: 100%;
+  height: 1000rem;
+  padding: 18rem;
+  background: #b2d8a3;
+}

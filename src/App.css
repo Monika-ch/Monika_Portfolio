@@ -7,6 +7,7 @@
 }
 
 .App-container {
+  /* border: 20px solid #fb860085; */
   background-color: #020f03e7;
   background: -webkit-radial-gradient(ellipse at center,
       rgba(62, 66, 65, 0.383) 0%,

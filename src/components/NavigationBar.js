@@ -40,7 +40,7 @@ class NavigationBar extends Component {
     ];
 
     return (
-      <>
+      <div id="NavLogoContainer">
         <div className='logo-container'>
           <h1 className='logo'><a href="/">൩</a></h1>
         </div>
@@ -63,7 +63,7 @@ class NavigationBar extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </>
+      </div>
     );
   }
 }
