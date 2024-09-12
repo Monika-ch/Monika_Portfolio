@@ -13,8 +13,8 @@ import '../styled-components/MyStory.css';
 const Home = () => {
   return (
     <>
-      {/* for medium and larger screen size i.e. min-width: 768px   */}
-      <div className='Home-page container d-none d-md-block' >
+      {/* for larger screen size i.e. min-width: 992px   */}
+      <div className='Home-page container d-none d-lg-block' >
         <div className='row'>
           <div className='col-lg-7 col-xl-6 order-2 order-lg-1'>
 
@@ -38,8 +38,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* for smaller screen size i.e. max-width: 767px   */}
-      <div className='Home-page container d-md-none' >
+      {/* for small/medium screen size i.e. max-width: 991px   */}
+      <div className='Home-page container d-lg-none' >
         <div className='row'>
           <div className='col'>
             <NavigationBar />
