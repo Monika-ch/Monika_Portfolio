@@ -17,6 +17,7 @@ const Home = () => {
       <div className='Home-page container d-none d-md-block' >
         <div className='row'>
           <div className='col-lg-7 col-xl-6 order-2 order-lg-1'>
+
             <NavigationBar />
             <div id='ContentContainer' className='Content-container'>
               <main>
