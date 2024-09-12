@@ -20,6 +20,18 @@ class NavigationBar extends Component {
     };
     this.toggleNav = this.toggleNav.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.handleDocumentClick = this.handleDocumentClick.bind(this);
+    this.navbarRef = React.createRef();  // Reference to the navbar
+  }
+
+  componentDidMount() {
+    // Listen for clicks anywhere in the document
+    document.addEventListener('click', this.handleDocumentClick);
+  }
+
+  componentWillUnmount() {
+    // Clean up the event listener when the component unmounts
+    document.removeEventListener('click', this.handleDocumentClick);
   }
 
   toggleNav() {
@@ -29,7 +41,21 @@ class NavigationBar extends Component {
   }
 
   handleClick(e, id) {
-    this.setState({ activeId: id });
+    e.stopPropagation(); // Prevent click from bubbling up to the document
+    // Collapse the nav menu on link click and click outside the navbar
+    this.setState({
+      activeId: id,
+      isNavOpen: false, // Collapse after a link is clicked
+    });
+  }
+
+  handleDocumentClick(event) {
+    // If the click is outside the navbar, collapse the menu
+    if (this.state.isNavOpen && this.navbarRef.current && !this.navbarRef.current.contains(event.target)) {
+      this.setState({
+        isNavOpen: false,
+      });
+    }
   }
 
   render() {
@@ -40,7 +66,7 @@ class NavigationBar extends Component {
     ];
 
     return (
-      <div id="NavLogoContainer">
+      <div id="NavLogoContainer" ref={this.navbarRef}>
         <div className='logo-container'>
           <h1 className='logo'><a href="/">൩</a></h1>
         </div>
