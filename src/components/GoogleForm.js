@@ -1,9 +1,7 @@
 import React from "react";
 
-
 // use this link to edit google forms:
 // https://docs.google.com/forms/d/1vJ4j7SbTV6nbXBMM4UzNGNS6Si5jBWsfmyJRfMQgBEo/edit#settings
-
 
 const GOOGLE_FORM_EMBED_URL = "https://docs.google.com/forms/d/e/1FAIpQLScnO-L88ACHlf3R7Z5iNdKvTrBL-G9yBiAImfnW3CbDoPnszw/viewform?embedded=true";
 

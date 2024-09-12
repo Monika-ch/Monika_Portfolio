@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Link } from 'react-router-dom';
 import SkillsInfo from './SkillsInfo';
 // import '../styled-components/HomePage.css';
 
