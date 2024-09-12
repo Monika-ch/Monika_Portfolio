@@ -1,6 +1,5 @@
   .logo-container {
     font-family: "Amatic SC", cursive;
-    color: #fb8500;
     position: fixed;
     right: calc(20px + 3%);
     bottom: calc(10px + 2%);
@@ -14,18 +13,27 @@
 
   .logo a {
     font-size: 5rem;
-    color: #fb8500;
-    text-shadow: -6px -1px 15px #f5a031;
+    color: #00fbc5de;
+    text-shadow: -4px -1px 12px #f5a031;
     box-shadow: 6px 5px 8px #e49e1dad;
     background: #0000009c;
     text-decoration: none;
-    border: 1px solid #00fbc5de;
+    border: 2px solid #fb6400;
     padding: 0 1.3rem 1rem;
+    transition: border-color 0.5s ease-in-out;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    -webkit-transition: border-color 0.5s ease-in-out;
+    -moz-transition: border-color 0.5s ease-in-out;
+    -ms-transition: border-color 0.5s ease-in-out;
+    -o-transition: border-color 0.5s ease-in-out;
+  }
+
+  .logo-container:hover .logo a {
+    border-color: #fbc000;
   }
 
   .navBar {
@@ -153,8 +161,8 @@
 
   @media (prefers-reduced-motion: no-preference) {
     .logo-container {
-      animation: App-logo-spin infinite 6s linear;
-      -webkit-animation: App-logo-spin infinite 6s linear;
+      animation: App-logo-spin infinite 18s linear;
+      -webkit-animation: App-logo-spin infinite 18s linear;
     }
   }
 
