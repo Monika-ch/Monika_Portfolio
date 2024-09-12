@@ -4,7 +4,7 @@ import "../styled-components/ContactPage.css"
 
 const ContactPage = () => {
   return (
-    <div className="contact-page">
+    <div id="contact" className="contact-page">
       <GoogleForm />
     </div>
   )
