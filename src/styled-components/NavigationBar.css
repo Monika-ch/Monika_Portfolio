@@ -43,11 +43,11 @@
     height: 0;
     top: 0;
     position: fixed;
-    background-color: rgb(255, 60, 0);
-    background: linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 7%, rgba(255, 109, 25, 0.9) 89%, rgba(27, 16, 27, 0.1) 98%);
-    background: -moz-linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 7%, rgba(255, 109, 25, 0.9) 89%, rgba(27, 16, 27, 0.1) 98%);
-    background: -webkit-linear-gradient(300deg, rgba(19, 2, 19, 0.8) 22%, rgb(255, 60, 0) 23%, rgba(255, 109, 25, 0.685) 77%, rgba(27, 16, 27, 0.2) 78%);
-    box-shadow: 0 6px 8px 0 rgba(216, 97, 67, 0.61), 0 6px 20px 0 rgba(163, 37, 37, 0.45);
+    background-color: #ff3c00;
+    background: linear-gradient(300deg, #130213cc 22%, #ff3c00 7%, #ff6d19af 89%, #1b101b1a 98%);
+    background: -moz-linear-gradient(300deg, #130213cc 22%, #ff3c00 7%, #ff6d19af 89%, #1b101b1a 98%);
+    background: -webkit-linear-gradient(300deg, #130213cc 22%, #ff3c00 23%, #ff6d19af 77%, #1b101b33 78%);
+    box-shadow: 0 6px 8px 0 #d861439c, 0 6px 20px 0 #a3252573;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -57,7 +57,7 @@
 
   .navBar .navbar-nav {
     background: #070706ea;
-    border-bottom: 1px solid rgba(255, 109, 25, 0.3);
+    border-bottom: 1px solid #ff6d194d;
     width: 450px;
     padding-bottom: 1.35rem;
     border-radius: 25%;
@@ -74,10 +74,9 @@
     cursor: pointer;
     padding-left: 1.72rem !important;
     padding-right: 1.72rem !important;
-    border-bottom: 1px solid #1f0404;
     margin-top: 3.5em;
     margin-right: 1em;
-    box-shadow: 0 4px 8px 0 rgba(71, 77, 78, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #474d4e33, 0 6px 20px 0 #00000030;
     background-color: #54bb99;
     background: linear-gradient(300deg,
         #503950cc 1%,
@@ -94,6 +93,7 @@
         #54bb99 7%,
         #00fbc5 89%,
         #1b101b1a 98%);
+    border-left: 10px solid #130a07;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -102,12 +102,12 @@
   }
 
   .navBar .navbar-nav .nav-link.active {
-    border-bottom: 5px solid rgb(255, 72, 0);
+    border-left: 10px solid #ff480018;
+    border-bottom: 5px solid #ff4800;
   }
 
   .navBar .nav_link:hover,
   .navBar .nav_link:active {
-    border: 1px solid #1f0404;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -139,7 +139,7 @@
     height: 100%;
     top: 0;
     left: -100%;
-    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(120deg, transparent, #ffffff66, transparent);
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -232,7 +232,7 @@
 
     .navbar-toggler {
       border-bottom: 3px solid #00fbc5de;
-      background-color: rgb(255, 109, 25);
+      background-color: #ff6d19;
       padding: 4px 6px;
       border-radius: 25%;
       -webkit-border-radius: 25%;
@@ -254,17 +254,35 @@
     .navbar-collapse {
       margin-top: 1.5rem;
       padding-top: 5px;
-      border-top: 1px solid rgba(240, 255, 255, 0.12);
+      border-top: 3px solid #f0ffff1f;
     }
 
     .navBar .nav_link {
       font-size: .9em;
-      margin-top: 3px;
+      margin-top: 4px;
       padding: 8px 0;
       width: 130px;
+      background-color: #f5a031;
+      background: linear-gradient(300deg,
+          #503950cc 1%,
+          #f5a031 7%,
+          #ff6d19 89%,
+          #1b101b1a 98%);
+      background: -moz-linear-gradient(300deg,
+          #503950cc 1%,
+          #f5a031 7%,
+          #ff6d19 89%,
+          #1b101b1a 98%);
+      background: -webkit-linear-gradient(300deg,
+          #503950cc 1%,
+          #f5a031 7%,
+          #ff6d19 89%,
+          #1b101b1a 98%);
     }
 
     .navBar .navbar-nav .nav-link.active {
-      border-bottom: 5px solid rgba(255, 109, 25, 0.9);
+      border-left: none;
+      /* border-bottom: 5px solid #ff6d19e6; */
+      border-bottom: 5px solid #00fbc5de;
     }
   }
