@@ -32,17 +32,19 @@
 .footer-section .footer-container {
   box-sizing: border-box;
   padding: 2em;
-  /* width: 70%; */
   font-size: 1.5em;
-  /* border-bottom: 1px solid black; */
 }
 
 .footer-section .footer-info {
   font-size: 1rem;
 }
 
-.footer-section .contact {
-  justify-content: center;
+.footer-section i {
+  color: black;
+}
+
+.footer-section .social-media-box:hover i {
+  color: #ff6d19;
 }
 
 .footer-section .downloadResume {
@@ -52,9 +54,12 @@
   padding: 3px 48px 3px 20px;
   letter-spacing: 1px;
   font-size: 18px;
-  /*padding-right: 4.5rem;
-  */
   border-radius: 15px;
+}
+
+.footer-section .downloadResume-box:hover .downloadResume {
+  background-color: #ff6d19;
+  color: black;
 }
 
 .footer-section .fa-download {
@@ -64,18 +69,9 @@
   font-size: 26px;
 }
 
-.footer-section .downloadResume-box a:hover .downloadResume,
-.footer-section .downloadResume-box a:hover i {
-  color: rgb(36, 78, 63);
-}
-
-.footer-section .downloadResume-box a:hover .downloadResume {
-  background-color: #8de2cd;
-}
-
-.footer-section .profileLink,
-.footer-section {
+.footer-section .profileLink {
   text-decoration: none;
+  color: black;
 }
 
 .footer-section .text-p-of-portfolio {
@@ -83,9 +79,9 @@
   font-weight: 300;
 }
 
-/* .footer-section .copyRightInfo-sm-screen {
-  display: none;
-} */
+.footer-section .copyRightInfo:hover .profileLink {
+  color: #012972;
+}
 
 
 /* @media (max-width: 1200px) {
@@ -104,8 +100,8 @@
 
 @media (max-width: 767px) {
   .footer-section {
-    margin-top: 8rem;
-    font-size: 10px;
+    margin: 8rem 2rem 2rem;
+    font-size: 14px;
     padding-bottom: .5rem;
     background: -moz-linear-gradient(-183deg,
         #503950cc 1%,
@@ -125,8 +121,21 @@
     box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   }
 
-  .footer-section .contact {
+  .footer-section .contact-box {
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-section .downloadResume-box {
+    margin-bottom: .2rem;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section {
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 13px;
   }
 }
