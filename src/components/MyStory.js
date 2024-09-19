@@ -13,15 +13,10 @@ const MyStory = () => {
         <div className='about-me'>
           <div>
             <div className="about-me-border-box">
-              <h2 className='typewriter-text h2-lg-screen'>
-                Hi, I'm <span className='styleH1'> Monika</span> ..
+              <h2 className='typewriter-text'>
+                Hi, I'm <span className='styleH1'> Monika</span> !
               </h2>
-              <h2 className='typewriter-text h2-sm-screen'>
-                Hi,
-                <div>
-                  I'm <span className='styleH1'> Monika</span>!
-                </div>
-              </h2>
+
               <p className='p1'><span className='opening-p-space'></span>I'm a <span className='highlight-text'>web developer</span> with a passion for turning creative ideas into seamless web experiences. My journey began <span className='highlight-text'>four years ago</span> in a bootcamp, which led to impactful work with <span className='highlight-text'>Bing@Work Microsoft</span>. There, I enhanced Bing's enterprise search features, improved accessibility testing frameworks, and developed image search functionalities.</p>
 
               {/* <p className='p2'>In my freelance ventures, I created, launched and hosted projects from scratch, like Martian Madness—a responsive web app that attracted over 700 users within a month through NFT minting.</p> */}

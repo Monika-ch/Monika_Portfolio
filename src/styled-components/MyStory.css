@@ -45,14 +45,9 @@
 }
 
 #story .about-me>div {
-  padding-top: 2.5rem;
   padding-bottom: 10rem;
   padding-right: 4rem;
   border-bottom: 1px solid orange;
-}
-
-#story .h2-sm-screen {
-  display: none;
 }
 
 #story h2 {
@@ -82,7 +77,7 @@
 }
 
 #story .about-me-border-box {
-  padding: 2.5rem 4.5rem 1rem 2.5rem;
+  padding: 5rem 4.5rem 1rem 2.5rem;
   border: 1px solid rgba(240, 255, 255, 0.1);
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -133,7 +128,7 @@
 #story .try-puzzle-text {
   margin-top: 7em;
   border-bottom: 1px solid rgba(240, 255, 255, 0.1);
-  border-right: 1px solid #fb8500;
+  border-right: 1px solid #ff4800;
   padding: 8rem 12rem 6rem 5rem;
   font-size: 20px;
   background: #020504a6;
@@ -161,7 +156,7 @@
   }
 
   to {
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -173,19 +168,19 @@
   }
 
   50% {
-    border-color: rgb(255, 72, 0);
+    border-color: #ff4800;
   }
 }
 
 #story h2 {
   display: inline-block;
   overflow: hidden;
-  border-right: 6px solid rgb(255, 72, 0);
+  border-right: 6px solid transparent;
   /*Cursoreffect*/
   white-space: nowrap;
   width: 0;
-  animation: typewriter 650ms steps(10) 400ms forwards, blinkCursor 500ms step-end infinite;
-  -webkit-animation: typewriter 650ms steps(10) 400ms forwards, blinkCursor 500ms step-end infinite;
+  animation: typewriter 1000ms steps(100) 400ms forwards, blinkCursor 400ms step-end 3;
+  -webkit-animation: typewriter 1000ms steps(100) 400ms forwards, blinkCursor 400ms step-end 3;
 }
 
 /* Fade-in effect for about me paragraph */
@@ -209,11 +204,11 @@
   border: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1399px) {
   #story h2 {
     font-size: 3.1rem;
     letter-spacing: 3px;
-    text-shadow: -2px -1px 6px rgba(255, 255, 255, 0.3);
+    /* text-shadow: -2px -1px 6px rgba(255, 255, 255, 0.3); */
   }
 }
 
@@ -225,16 +220,18 @@
   }
 
   #story .about-me {
-    padding: 1rem 1.7rem 3rem;
-    margin-top: 6rem;
-    border-top: 1px solid #00fbc58a;
+    border-right: 1px solid #ff4800;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    margin-top: 4rem;
+    border-top: 2px solid #00fbc58a;
     border-bottom-right-radius: 150px;
     border-top-right-radius: 100px;
     border-top-left-radius: 0;
   }
 
   #story .about-me>div {
-    padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 0;
     border-bottom: none;
@@ -246,25 +243,12 @@
     border: none;
   }
 
-  #story .h2-lg-screen {
-    display: none;
-  }
-
-  #story .h2-sm-screen {
-    display: block;
-  }
-
-  #story .h2-sm-screen div {
-    margin-top: 1.2rem;
-    font-size: 2.5rem;
-  }
-
   #story h2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 4rem;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
     word-spacing: 10px;
     letter-spacing: 5px;
+    /* border-bottom: 1px solid rgba(90, 224, 197, 0.1); */
   }
 
   #story p .opening-p-space {
@@ -294,11 +278,11 @@
   #story .story-container .future-goals {
     margin-top: 3.5em;
     margin-bottom: 1rem;
-    padding: 8rem 2rem 4rem;
+    padding: 8rem 7rem 4rem 3rem;
   }
 
   #story .try-puzzle-text {
-    padding: 6rem 7rem 4rem 2rem;
+    padding: 7rem 7rem 4rem 3rem;
     border-bottom: 1px solid azure;
     word-spacing: 3px;
   }
@@ -315,5 +299,43 @@
   #story .pattern-match-wrapper {
     border: 10px solid #61f5c4;
     margin-top: 10rem;
+  }
+}
+
+@media (max-width: 529px) {
+  #story h2 {
+    letter-spacing: 3px;
+    font-size: 3.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #story h2 {
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    font-size: 2.8rem;
+  }
+
+  #story .about-me {
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+  }
+
+  #story .p2,
+  #story .p3 {
+    margin-top: 3rem;
+  }
+
+  #story .story-container .future-goals {
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  #story .try-puzzle-text {
+    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
   }
 }
