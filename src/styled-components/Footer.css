@@ -133,6 +133,10 @@
 }
 
 @media (max-width: 480px) {
+  .footer-section .footer-container {
+    padding: 2em 1rem;
+  }
+
   .footer-section {
     margin-left: 1px;
     margin-right: 1px;

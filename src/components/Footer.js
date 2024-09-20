@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
           </div> */}
           <div className='row copyRightInfo'>
-            <div className='col py-4 p-md-4'><a
+            <div className='col py-4'><a
               href='https://www.linkedin.com/in/monika12b/'
               className='profileLink'
               target='_blank'
