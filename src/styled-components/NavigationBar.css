@@ -281,7 +281,6 @@
     }
 
     .navBar .navbar-nav .nav-link.active {
-      border-left: none;
       /* border-bottom: 5px solid #ff6d19e6; */
       border-bottom: 5px solid #00fbc5de;
     }
