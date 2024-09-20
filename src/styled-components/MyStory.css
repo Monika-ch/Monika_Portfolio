@@ -90,11 +90,6 @@
   margin-bottom: 2.2rem;
 }
 
-#story p .highlight-text,
-#story h3 .highlight-text {
-  color: #00fbc5;
-}
-
 #story .story-container h3 {
   font-size: 22px;
   font-weight: bold;

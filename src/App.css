@@ -30,6 +30,9 @@
 .text-black {
   color: #1f0404;
 }
+.highlight-text {
+  color: #00fbc5;
+}
 
 ::selection {
   background-color: #fb860085;
