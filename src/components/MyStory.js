@@ -17,13 +17,13 @@ const MyStory = () => {
                 Hi, I'm <span className='styleH1'> Monika</span> !
               </h2>
 
-              <p className='p1'><span className='opening-p-space'></span>I'm a <span className='highlight-text'>web developer</span> with a passion for turning creative ideas into seamless web experiences. My journey began <span className='highlight-text'>four years ago</span> in a bootcamp, which led to impactful work with <span className='highlight-text'>Bing@Work Microsoft</span>. There, I enhanced Bing's enterprise search features, improved accessibility testing frameworks, and developed image search functionalities.</p>
+              <p className='p1'>I'm a <span className='highlight-text'>web developer</span> with a passion for turning creative ideas into seamless web experiences. My journey began <span className='highlight-text'>four years ago</span> in a bootcamp, which led to impactful work with <span className='highlight-text'>Bing@Work Microsoft</span>. There, I enhanced Bing's enterprise search features, improved accessibility testing frameworks, and developed image search functionalities.</p>
 
               {/* <p className='p2'>In my freelance ventures, I created, launched and hosted projects from scratch, like Martian Madness—a responsive web app that attracted over 700 users within a month through NFT minting.</p> */}
 
-              <p className='p2'><span className='opening-p-space'></span>I created, launched and hosted projects from scratch in my freelance ventures, like <span className='highlight-text'>Martian Madness</span>, an NFT minting platform for a digital artist that attracted several users within a month.</p>
+              <p className='p2'>I created, launched and hosted projects from scratch in my <span className='highlight-text'>freelance start-up ventures</span>, like <span className='highlight-text'>Martian Madness</span>, an NFT minting platform for a digital artist that attracted several users within a month.</p>
 
-              <p className='p3'><span className='opening-p-space'></span>Following today's trend, I work with large language models like GPT as a <span className='highlight-text'>Prompt Engineer at Remotasks</span>. I focus on prompting, evaluating, and debugging code generation to enhance their precision and relevance.</p>
+              <p className='p3'>Following today's trend, I work with large language models like <span className='highlight-text'>GPT</span> as a <span className='highlight-text'>Prompt Engineer at Remotasks</span>. I focus on prompting, evaluating, and debugging code generation to enhance their precision and relevance.</p>
             </div>
           </div>
         </div>

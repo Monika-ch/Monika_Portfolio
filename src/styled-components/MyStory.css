@@ -90,21 +90,9 @@
   margin-bottom: 2.2rem;
 }
 
-#story p .opening-p-space {
-  margin-left: 4.3rem;
-}
-
-#story p:hover {
-  color: #c6ebe0;
-}
-
 #story p .highlight-text,
 #story h3 .highlight-text {
   color: #00fbc5;
-}
-
-#story p:hover .highlight-text {
-  color: #ffe0bd;
 }
 
 #story .story-container h3 {
@@ -202,6 +190,17 @@
 
 #story .pattern-match-wrapper {
   border: none;
+}
+
+@media (min-width: 768px) {
+  #story p:hover {
+    color: #8dffe6;
+  }
+
+  #story p:hover .highlight-text {
+    color: #ffe0bd;
+    color: orange;
+  }
 }
 
 @media (max-width: 1399px) {
