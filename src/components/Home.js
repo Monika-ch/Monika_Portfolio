@@ -26,7 +26,7 @@ const Home = () => {
                   <Route path='/Monika_Portfolio' element={<MyStory />} />
                   <Route path='/whatIdo' element={<WhatIDo />} />
                   <Route path='/contact' element={<ContactPage />} />
-                  <Route path="*" element={<Navigate to="/" />} />
+                  <Route path="*" element={<Navigate to="Monika_Portfolio/" />} />
                 </Routes>
               </main>
               <footer>
