@@ -147,7 +147,6 @@
   padding: 13px 0 3px 0;
 }
 
-
 .personal-info-container i {
   /* color: rgba(240, 255, 255, 0.74); */
   font-size: 27px;
@@ -190,6 +189,24 @@
 
 .fa-briefcase {
   color: rgb(255, 130, 255);
+}
+
+@media (min-width: 768px) {
+  #HomeProfile .social-media-box a:hover {
+    background-color: #313131;
+  }
+
+  #HomeProfile .social-media-box .fa-envelope:hover {
+    color: #e9a245;
+  }
+
+  #HomeProfile .social-media-box .fa-linkedin:hover {
+    color: #47e0f5d3;
+  }
+
+  #HomeProfile .social-media-box .fa-github:hover {
+    color: #66f1c3dc;
+  }
 }
 
 @media (max-width: 991px) {
