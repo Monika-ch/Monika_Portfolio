@@ -22,8 +22,9 @@ const Home = () => {
             <div id='ContentContainer' className='Content-container'>
               <main>
                 <Routes>
-                  <Route path='/' element={<MyStory />} />
                   <Route path='/Monika_Portfolio' element={<MyStory />} />
+                  <Route path='/myStory' element={<MyStory />} />
+                  <Route path='/' element={<MyStory />} />
                   <Route path='/whatIdo' element={<WhatIDo />} />
                   <Route path='/contact' element={<ContactPage />} />
                   <Route path="*" element={<Navigate to="/Monika_Portfolio" />} />
