@@ -9,7 +9,7 @@
   letter-spacing: 2px;
   padding: 8rem 0 8rem;
   background-color: #000000b2;
-  height: 1600px;
+  height: 1400px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -192,6 +192,10 @@
 }
 
 @media (min-width: 768px) {
+  .Home-profile-container {
+    height: 1250px;
+  }
+
   #HomeProfile .social-media-box a:hover {
     background-color: #313131;
   }

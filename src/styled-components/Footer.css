@@ -132,12 +132,19 @@
   }
 }
 
+@media (max-width: 580px) {
+  .footer-section {
+    margin: 6rem 1rem 1rem;
+  }
+}
+
 @media (max-width: 480px) {
   .footer-section .footer-container {
     padding: 2em 1rem;
   }
 
   .footer-section {
+    margin-top: 0;
     margin-left: 1px;
     margin-right: 1px;
     font-size: 13px;

@@ -1,0 +1,92 @@
+#skill-column {
+  margin-top: 1.5rem;
+}
+
+#skill-column p {
+  box-sizing: border-box;
+  color: azure;
+  font-family: "Exo 2", sans-serif;
+}
+
+#skill-column>div {
+  width: 100%;
+  padding: 7rem 6rem 6rem;
+  margin-top: 1rem;
+  background-color: #000000b2;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#skill-column h3 {
+  color: #fb8500;
+  margin-bottom: 30px;
+}
+
+.SkillTechnology i {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.SkillTechnology p,
+.SkillTools p,
+.SkillTools div,
+.SkillSkills p {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.SkillTechnology p,
+.SkillTools p,
+.SkillSkills p {
+  margin: 1rem;
+}
+
+.SkillTools .git,
+.SkillTools .figma {
+  margin-left: 6px;
+}
+
+/* .typescript {
+  background-color: rgb(70, 70, 211);
+  padding-top: 3px;
+  padding-left: 4px;
+  width: 30px;
+} */
+
+
+@media (max-width: 1200px) {
+
+  .SkillTools p,
+  .SkillSkills p {
+    font-size: 18px;
+  }
+
+  #skill-column>div {
+    width: 100%;
+    padding: 5rem 4rem 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  #skill-column {
+    margin-top: 2.5rem;
+  }
+
+  #skill-column>div {
+    padding: 7rem 6rem 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #skill-column {
+    margin-top: 6rem;
+  }
+
+  #skill-column>div {
+    width: 100%;
+    padding: 5rem 4rem 4rem;
+  }
+}
