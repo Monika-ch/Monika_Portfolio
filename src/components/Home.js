@@ -2,13 +2,18 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 import HomeProfile from './HomeProfile';
+import SkillTechnology from './SkillTechnology';
+import SkillTools from './SkillTools';
+import SkillSkills from './SkillSkills';
 import MyStory from './MyStory';
 import WhatIDo from './WhatIDo';
 import ContactPage from './ContactPage';
 import Footer from './Footer';
 import '../styled-components/Home.css';
 import '../styled-components/ContentContainer.css';
+import '../styled-components/SkillColumn.css';
 import '../styled-components/MyStory.css';
+
 
 const Home = () => {
   return (
@@ -17,7 +22,6 @@ const Home = () => {
       <div className='Home-page container d-none d-lg-block' >
         <div className='row'>
           <div className='col-lg-7 col-xl-6 order-2 order-lg-1'>
-
             <NavigationBar />
             <div id='ContentContainer' className='Content-container'>
               <main>
@@ -35,7 +39,15 @@ const Home = () => {
               </footer>
             </div>
           </div>
-          <HomeProfile />
+
+          <div className='col-lg-5 order-lg-2 order-1'>
+            <HomeProfile />
+            <div id='skill-column'>
+              <SkillTechnology />
+              <SkillTools />
+              <SkillSkills />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -51,6 +63,11 @@ const Home = () => {
                     <div>
                       <HomeProfile />
                       <MyStory />
+                      <div id='skill-column'>
+                        <SkillTechnology />
+                        <SkillTools />
+                        <SkillSkills />
+                      </div>
                     </div>
                   } />
                   <Route path='/whatIdo' element={<WhatIDo />} />
