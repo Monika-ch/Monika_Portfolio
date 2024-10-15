@@ -161,26 +161,26 @@
 
   @media (prefers-reduced-motion: no-preference) {
     .logo-container {
-      animation: App-logo-spin infinite 18s linear;
-      -webkit-animation: App-logo-spin infinite 18s linear;
+      animation: App-logo-spin infinite 3s linear;
+      -webkit-animation: App-logo-spin infinite 3s linear;
     }
   }
 
   @keyframes App-logo-spin {
     from {
-      transform: rotateY(0deg);
-      -webkit-transform: rotateY(0deg);
-      -moz-transform: rotateY(0deg);
-      -ms-transform: rotateY(0deg);
-      -o-transform: rotateY(0deg);
+      transform: rotateY(-60deg);
+      -webkit-transform: rotateY(-60deg);
+      -moz-transform: rotateY(-60deg);
+      -ms-transform: rotateY(-60deg);
+      -o-transform: rotateY(-60deg);
     }
 
     to {
-      transform: rotateY(360deg);
-      -webkit-transform: rotateY(360deg);
-      -moz-transform: rotateY(360deg);
-      -ms-transform: rotateY(360deg);
-      -o-transform: rotateY(360deg);
+      transform: rotateY(60deg);
+      -webkit-transform: rotateY(60deg);
+      -moz-transform: rotateY(60deg);
+      -ms-transform: rotateY(60deg);
+      -o-transform: rotateY(60deg);
     }
   }
 
@@ -193,24 +193,7 @@
     } */
   }
 
-  @media (max-width: 992px) {
-    @media (prefers-reduced-motion: no-preference) {
-      .logo-container {
-        animation: App-logo-spin infinite 10s linear;
-        -webkit-animation: App-logo-spin infinite 10s linear;
-      }
-    }
-  }
-
   @media (max-width: 767px) {
-
-    @media (prefers-reduced-motion: no-preference) {
-      .logo-container {
-        animation: App-logo-spin infinite 8s linear;
-        -webkit-animation: App-logo-spin infinite 8s linear;
-      }
-    }
-
     .logo-container {
       box-shadow: none;
       top: .6rem;
